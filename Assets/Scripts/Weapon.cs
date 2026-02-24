@@ -6,10 +6,34 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    public GameObject bulletPrefab;
-    public Transform bulletSpawn;
-    public float bulletVelocity = 25;
-    public float bulletLifetime = 3f;
+    //public Camera playerCamera;
+    public GameObject bulletPrefab; //The bullet
+    public Transform bulletSpawn; //The bullet spawner
+    public float bulletVelocity = 25; //The default velocity of the bullet
+    public float bulletLifetime = 3f; //The bullet "air time"
+    public enum WeaponType
+    {
+        Single,
+        Burst,
+        Automatic
+    }
+
+    public bool isShooting, readyShooting;
+    bool allowReset = true;
+    public float delayShot = 2f; //Delay between shots.
+    public float shootingSpread; //The spread of the bullets when being shot.
+
+    //Shooting modes
+    public int bulletsPerBurst = 3; //If shooting a burst of bullets it would be how many bullets per burst-
+    public int currentBurst; //To work with the burst that just got shot. and not letting it behave like a full automatic.
+
+    public WeaponType currentType;
+
+    private void Awake()
+    {
+        readyShooting = true;
+        currentBurst = bulletsPerBurst; //when ther are no more bullets in that burst, means that the burst is over.
+    }
 
     void Update()
     {
