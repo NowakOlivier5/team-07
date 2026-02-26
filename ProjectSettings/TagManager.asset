@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - WorldMap
+  - Target
   layers:
   - Default
   - TransparentFX
