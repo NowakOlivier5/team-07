@@ -16,6 +16,10 @@ public class Bullet : MonoBehaviour
             print("hit terrain/world" + collision.gameObject.name + " !");
             Destroy(gameObject);
         }
-
+        if (collision.gameObject.CompareTag("ProtoAgent"))
+        {
+            ProtoAI enemy = collision.gameObject.GetComponent<ProtoAI>();
+            enemy.Die();
+        }
     }
 }
