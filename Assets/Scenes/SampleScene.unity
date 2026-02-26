@@ -4279,10 +4279,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2cafaef5f60f684aaf59df534542cab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Weapon
+  playerCamera: {fileID: 1337034514}
   bulletPrefab: {fileID: 6446694515735044545, guid: 657afd0ed3620d04f93f64754347506d, type: 3}
   bulletSpawn: {fileID: 1930341087}
   bulletVelocity: 35
   bulletLifetime: 3
+  isShooting: 0
+  readyShooting: 0
+  delayShot: 0.6
+  shootingSpread: 1
+  bulletsPerBurst: 3
+  currentBurst: 0
+  currentType: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
