@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
-public class PrototypeAI : MonoBehaviour
+public class ProtoAI : MonoBehaviour
 {
     // Agent Variables
     public Transform target;
@@ -62,6 +62,20 @@ public class PrototypeAI : MonoBehaviour
             protoAgent.isStopped = false;
             protoAgent.destination = target.position;
         }
+    }
+
+    public void Die()
+    {
+        // Disables the navmesh agent
+        GetComponent<NavMeshAgent>().enabled = false;
+
+        // Gets the rigidbody component of the proto agent and disables kinematic and makes it use gravity
+        Rigidbody rb = GetComponent<Rigidbody>();
+        rb.isKinematic = false;
+        rb.useGravity = true;
+
+        // Stops the script
+        this.enabled = false;
     }
 
     private void ProtoBehavior()
