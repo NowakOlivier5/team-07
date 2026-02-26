@@ -9,11 +9,11 @@ public class ProtoAI : MonoBehaviour
     public Transform target;
     public float closeDistance;
     public float protoVisionRange;
-    public float protoRoamRange;
 
     private NavMeshAgent protoAgent;
     private float protoDistance;
 
+    public LayerMask playerLayer;
     private bool playerVisible;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -21,6 +21,9 @@ public class ProtoAI : MonoBehaviour
     {
         // Loads the NavMeshAgent to work with the agent
         protoAgent = GetComponent<NavMeshAgent>();
+        Rigidbody rb = GetComponent<Rigidbody>();
+        rb.isKinematic = true;
+        rb.useGravity = false;
     }
 
     // Update is called once per frame
@@ -28,26 +31,19 @@ public class ProtoAI : MonoBehaviour
     {
         DetectPlayer();
         ProtoBehavior();
-        BasicFollow();
     }
-
 
     private void DetectPlayer()
     {
-        playerVisible = Physics.CheckSphere(transform.position, protoVisionRange);
+        playerVisible = Physics.CheckSphere(transform.position, protoVisionRange, playerLayer);
     }
 
-    private void ProtoPatrol()
+    private void ProtoStop()
     {
-
+        protoAgent.isStopped = true;
     }
 
     private void ProtoFollow()
-    {
-
-    }
-
-    private void BasicFollow()
     {
         // Checks the distance between the agent and the player
         protoDistance = Vector3.Distance(protoAgent.transform.position, target.position);
@@ -82,7 +78,7 @@ public class ProtoAI : MonoBehaviour
     {
         if (!playerVisible)
         {
-            ProtoPatrol();
+            ProtoStop();
         }
         else if (playerVisible)
         {
@@ -95,8 +91,5 @@ public class ProtoAI : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, protoVisionRange);
-
-        Gizmos.color = Color.blue;
-        Gizmos.DrawWireSphere(transform.position, protoRoamRange);
     }
 }
