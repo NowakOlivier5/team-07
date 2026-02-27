@@ -993,8 +993,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProtoAI
   target: {fileID: 1123936490}
-  closeDistance: 2
-  protoVisionRange: 12
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
