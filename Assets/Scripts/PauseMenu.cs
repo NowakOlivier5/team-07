@@ -20,12 +20,7 @@ public class PauseMenu : MonoBehaviour
     {
         if (Input.GetKeyDown("escape") || Input.GetKeyDown("p"))
         {
-            if (isPaused)
-            {
-                Unpause();
-                Debug.Log(isPaused);
-            }
-            else if (!isPaused)
+            if (!isPaused)
             {
                 Pause();
                 Debug.Log(isPaused);
