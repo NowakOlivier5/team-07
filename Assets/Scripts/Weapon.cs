@@ -48,7 +48,7 @@ public class Weapon : MonoBehaviour
         {
             isShooting = Input.GetKeyDown(KeyCode.Mouse0); //GetKeyDown when pressing only once.
         }
-        if (readyShooting && isShooting)
+        if (readyShooting && isShooting && !PauseMenu.isPaused)
         {
             currentBurst = bulletsPerBurst;
             FireWeapon();
