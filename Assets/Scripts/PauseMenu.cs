@@ -25,6 +25,10 @@ public class PauseMenu : MonoBehaviour
                 Pause();
                 Debug.Log(isPaused);
             }
+            else
+            {
+                Unpause();
+            }
         }
     }
 
