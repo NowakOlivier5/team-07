@@ -45,6 +45,10 @@ public class WeaponSlotsManager : MonoBehaviour
         {
             SwitchSlot(1);
         }
+        if (Input.GetKey(KeyCode.Alpha3))
+        {
+            SwitchSlot(2);
+        }
     }
     private void SwitchSlot(int slotNumber)
     {

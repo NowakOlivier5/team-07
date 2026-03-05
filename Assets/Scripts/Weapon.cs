@@ -42,7 +42,7 @@ public class Weapon : MonoBehaviour
 
     void Update()
     {
-        if (isActiveWeapon)
+        if (isActiveWeapon) //If the weapon is not the one in hand doesnt shoot.
         {
             if (currentType == WeaponType.Automatic)
             {
