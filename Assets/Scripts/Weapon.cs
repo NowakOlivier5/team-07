@@ -1,14 +1,15 @@
 using System;
 using System.Collections;
-using Unity.Mathematics;
-using UnityEditor;
+using System.Numerics;
 using UnityEngine;
-using UnityEngine.Scripting;
-
+using Vector3 = UnityEngine.Vector3;
+using Quaternion = UnityEngine.Quaternion;
+using NUnit.Framework;
 public class Weapon : MonoBehaviour
 {
     public Camera playerCamera;
     public GameObject bulletPrefab; //The bullet
+    public bool isActiveWeapon;
     public Transform bulletSpawn; //The bullet spawner
     public float bulletVelocity = 25; //The default velocity of the bullet
     public float bulletLifetime = 3f; //The bullet "air time"
@@ -30,6 +31,9 @@ public class Weapon : MonoBehaviour
 
     public WeaponType currentType; //how we are going to compare in if statements for the weapon to have the corresponding behaviours.
 
+    public Vector3 spawnPosition;
+    public Vector3 spawnRotation;
+
     private void Awake()
     {
         readyShooting = true;
@@ -38,19 +42,22 @@ public class Weapon : MonoBehaviour
 
     void Update()
     {
-        if (currentType == WeaponType.Automatic)
+        if (isActiveWeapon)
         {
-            //Only shoots if holding the click
-            isShooting = Input.GetKey(KeyCode.Mouse0);//GetKey is for holding the button
-        }
-        else if (currentType == WeaponType.Single || currentType == WeaponType.Burst)
-        {
-            isShooting = Input.GetKeyDown(KeyCode.Mouse0); //GetKeyDown when pressing only once.
-        }
-        if (readyShooting && isShooting && !PauseMenu.isPaused)
-        {
-            currentBurst = bulletsPerBurst;
-            FireWeapon();
+            if (currentType == WeaponType.Automatic)
+            {
+                //Only shoots if holding the click
+                isShooting = Input.GetKey(KeyCode.Mouse0);//GetKey is for holding the button
+            }
+            else if (currentType == WeaponType.Single || currentType == WeaponType.Burst)
+            {
+                isShooting = Input.GetKeyDown(KeyCode.Mouse0); //GetKeyDown when pressing only once.
+            }
+            if (readyShooting && isShooting && !PauseMenu.isPaused)
+            {
+                currentBurst = bulletsPerBurst;
+                FireWeapon();
+            }
         }
     }
 
