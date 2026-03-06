@@ -31,7 +31,7 @@ public class Weapon : MonoBehaviour
 
     public WeaponType currentType; //how we are going to compare in if statements for the weapon to have the corresponding behaviours.
 
-    public Vector3 spawnPosition;
+    public Vector3 spawnPosition; //This I might remove later, but for now is in case you guys decide to make weapons a "pick up" we need to tell the object to what position should go when picked up, so its good to be able to set that information.
     public Vector3 spawnRotation;
 
     private void Awake()
