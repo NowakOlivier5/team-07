@@ -17,7 +17,8 @@ public class Weapon : MonoBehaviour
     {
         Single,
         Burst,
-        Automatic
+        Automatic,
+        Shotgun
     }
 
     public bool isShooting, readyShooting;
@@ -44,12 +45,13 @@ public class Weapon : MonoBehaviour
     {
         if (isActiveWeapon) //If the weapon is not the one in hand doesnt shoot.
         {
+            GetComponent<Renderer>().enabled = true;
             if (currentType == WeaponType.Automatic)
             {
                 //Only shoots if holding the click
                 isShooting = Input.GetKey(KeyCode.Mouse0);//GetKey is for holding the button
             }
-            else if (currentType == WeaponType.Single || currentType == WeaponType.Burst)
+            else if (currentType == WeaponType.Single || currentType == WeaponType.Burst || currentType == WeaponType.Shotgun)
             {
                 isShooting = Input.GetKeyDown(KeyCode.Mouse0); //GetKeyDown when pressing only once.
             }
@@ -58,6 +60,10 @@ public class Weapon : MonoBehaviour
                 currentBurst = bulletsPerBurst;
                 FireWeapon();
             }
+        }
+        else
+        {
+            GetComponent<Renderer>().enabled = false;
         }
     }
 
