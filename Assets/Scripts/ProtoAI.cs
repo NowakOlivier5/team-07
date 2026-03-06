@@ -8,7 +8,7 @@ public class ProtoAI : MonoBehaviour
     // Agent Variables
     public Transform target;
     private float closeDistance = 2;
-    private float protoVisionRange = 18;
+    public float protoVisionRange = 18;
 
     private NavMeshAgent protoAgent; // Loads the agents navmeshagent
     private float protoDistance; // Value used to prevent agent walking over ontop of the player
