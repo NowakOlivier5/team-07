@@ -207,7 +207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bfc5f99a3bd30147916526d077a7965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Destroy
-  rb: {fileID: 0}
+  rb: {fileID: 5632556}
   isGlass: 0
   objectHealth: 5
 --- !u!1 &16928960
@@ -1407,7 +1407,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bfc5f99a3bd30147916526d077a7965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Destroy
-  rb: {fileID: 0}
+  rb: {fileID: 213722761}
   isGlass: 0
   objectHealth: 5
 --- !u!1 &224202007
@@ -1589,7 +1589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bfc5f99a3bd30147916526d077a7965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Destroy
-  rb: {fileID: 0}
+  rb: {fileID: 334798142}
   isGlass: 0
   objectHealth: 5
 --- !u!1 &361668659
@@ -3553,7 +3553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bfc5f99a3bd30147916526d077a7965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Destroy
-  rb: {fileID: 0}
+  rb: {fileID: 745162849}
   isGlass: 0
   objectHealth: 5
 --- !u!1 &760213429
@@ -4941,7 +4941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bfc5f99a3bd30147916526d077a7965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Destroy
-  rb: {fileID: 0}
+  rb: {fileID: 1014312633}
   isGlass: 0
   objectHealth: 5
 --- !u!1 &1017117150 stripped
@@ -5032,7 +5032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bfc5f99a3bd30147916526d077a7965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Destroy
-  rb: {fileID: 0}
+  rb: {fileID: 1017117154}
   isGlass: 0
   objectHealth: 5
 --- !u!1 &1054510037
@@ -6258,7 +6258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bfc5f99a3bd30147916526d077a7965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Destroy
-  rb: {fileID: 0}
+  rb: {fileID: 1338855980}
   isGlass: 0
   objectHealth: 5
 --- !u!1 &1359436111
@@ -6488,7 +6488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bfc5f99a3bd30147916526d077a7965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Destroy
-  rb: {fileID: 0}
+  rb: {fileID: 1374940099}
   isGlass: 0
   objectHealth: 5
 --- !u!1 &1405331855
@@ -8000,7 +8000,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bfc5f99a3bd30147916526d077a7965, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Destroy
-  rb: {fileID: 0}
+  rb: {fileID: 1725538810}
   isGlass: 0
   objectHealth: 5
 --- !u!1 &1727714955
