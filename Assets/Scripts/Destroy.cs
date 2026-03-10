@@ -30,7 +30,15 @@ public class Destroy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Bullet"))
         {
-            objectHealth = objectHealth - 1;
+            objectHealth--;
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("ProtoAgent"))
+        {
+            objectHealth = 0;
         }
     }
 }
