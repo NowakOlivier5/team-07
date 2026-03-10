@@ -9,6 +9,7 @@ public class ProtoAI : MonoBehaviour
     public Transform target;
     private float closeDistance = 2;
     public float protoVisionRange = 18;
+    public int monsterHealth = 5;
 
     private NavMeshAgent protoAgent; // Loads the agents navmeshagent
     private float protoDistance; // Value used to prevent agent walking over ontop of the player
@@ -69,16 +70,22 @@ public class ProtoAI : MonoBehaviour
     // Called in from the bullet script
     public void Die()
     {
-        // Disables the navmesh agent
-        GetComponent<NavMeshAgent>().enabled = false;
+        // Reduces the monster health when hit
+        monsterHealth--;
 
-        // Gets the rigidbody component of the proto agent and disables kinematic and makes it use gravity
-        Rigidbody rb = GetComponent<Rigidbody>();
-        rb.isKinematic = false;
-        rb.useGravity = true;
+        if (monsterHealth <= 0)
+        {
+            // Disables the navmesh agent
+            GetComponent<NavMeshAgent>().enabled = false;
 
-        // Stops the script
-        this.enabled = false;
+            // Gets the rigidbody component of the proto agent and disables kinematic and makes it use gravity
+            Rigidbody rb = GetComponent<Rigidbody>();
+            rb.isKinematic = false;
+            rb.useGravity = true;
+
+            // Stops the script
+            this.enabled = false;
+        }
     }
 
     // Defines what the agent will do based on if the playerVisible boolean is true or false
