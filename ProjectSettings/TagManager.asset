@@ -7,6 +7,8 @@ TagManager:
   - WorldMap
   - Target
   - ProtoAgent
+  - Bullet
+  - DestrEnvironment
   layers:
   - Default
   - TransparentFX
