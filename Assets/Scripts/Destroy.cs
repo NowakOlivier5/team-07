@@ -4,6 +4,7 @@ public class Destroy : MonoBehaviour
 {
     // Variables
     public Rigidbody rb;
+    public bool isGlass;
     public int objectHealth = 5;
 
     void Start()
