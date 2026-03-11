@@ -18,6 +18,12 @@ public class Destroy : MonoBehaviour
     {
         // Checks if the health points of the fragment is at or below 0
         // If so, enable rigibody and gravity on the fragment and disable the script
+        if (isGlass == true && objectHealth <= 0)
+        {
+            rb.isKinematic=false;
+            Destroy(gameObject); // Replace with a particle effect when the glass is destroyed
+            this.enabled = false;
+        }
         if (objectHealth <= 0)
         {
             rb.isKinematic=false;
@@ -31,6 +37,10 @@ public class Destroy : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Bullet"))
         {
+            if (isGlass == true)
+            {
+                objectHealth = 0;
+            }
             objectHealth--;
         }
     }

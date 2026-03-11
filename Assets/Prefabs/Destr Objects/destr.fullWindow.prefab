@@ -48,9 +48,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -650433988561056430, guid: 7ff3885d268a7604eaa2f3bcaba8bc25, type: 3}
+      propertyPath: m_Name
+      value: glass
+      objectReference: {fileID: 0}
+    - target: {fileID: -650433988561056430, guid: 7ff3885d268a7604eaa2f3bcaba8bc25, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7ff3885d268a7604eaa2f3bcaba8bc25, type: 3}
       propertyPath: m_Name
       value: destr.fullWindow
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907091372267947420, guid: 7ff3885d268a7604eaa2f3bcaba8bc25, type: 3}
+      propertyPath: m_Name
+      value: frame
+      objectReference: {fileID: 0}
+    - target: {fileID: 3907091372267947420, guid: 7ff3885d268a7604eaa2f3bcaba8bc25, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -99,7 +115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Destroy
   rb: {fileID: 2998285027108845251}
-  isGlass: 0
+  isGlass: 1
   objectHealth: 5
 --- !u!64 &5188391111653297147
 MeshCollider:

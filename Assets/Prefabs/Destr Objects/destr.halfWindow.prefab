@@ -52,6 +52,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.halfWindow
       objectReference: {fileID: 0}
+    - target: {fileID: 8043321372870168745, guid: 1dcc30ea25293ba4f8a1a28955566738, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -190,7 +194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Destroy
   rb: {fileID: 5491879932622156762}
-  isGlass: 0
+  isGlass: 1
   objectHealth: 5
 --- !u!64 &4600509418693053874
 MeshCollider:
