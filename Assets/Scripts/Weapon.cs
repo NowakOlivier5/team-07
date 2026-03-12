@@ -18,7 +18,8 @@ public class Weapon : MonoBehaviour
         Single,
         Burst,
         Automatic,
-        Shotgun
+        Shotgun,
+        RPG
     }
 
     public bool isShooting, readyShooting;
@@ -26,6 +27,7 @@ public class Weapon : MonoBehaviour
     public float delayShot = 2f; //Delay between shots.
     public float shootingSpread; //The spread of the bullets when being shot.
 
+    public int damage;
     //Shooting modes
     public int bulletsPerBurst = 3; //If shooting a burst of bullets it would be how many bullets per burst-
     public int currentBurst; //To work with the burst that just got shot. and not letting it behave like a full automatic.
@@ -51,7 +53,7 @@ public class Weapon : MonoBehaviour
                 //Only shoots if holding the click
                 isShooting = Input.GetKey(KeyCode.Mouse0);//GetKey is for holding the button
             }
-            else if (currentType == WeaponType.Single || currentType == WeaponType.Burst || currentType == WeaponType.Shotgun)
+            else if (currentType == WeaponType.Single || currentType == WeaponType.Burst || currentType == WeaponType.Shotgun || currentType == WeaponType.RPG)
             {
                 isShooting = Input.GetKeyDown(KeyCode.Mouse0); //GetKeyDown when pressing only once.
             }
@@ -76,35 +78,63 @@ public class Weapon : MonoBehaviour
     private void FireWeapon()
     {
         animator.SetTrigger("RECOIL");
-        //We said that we cant start shooting once the shooting started.    
-        readyShooting = false;
-        Vector3 directionOfShot = DirectionAndSpreadCal().normalized;
 
-        //Instantiating the bullet.
-        GameObject bullet = Instantiate(bulletPrefab, bulletSpawn.position, Quaternion.identity);
-
-        //This is a pointer, points at the direction we are shooting.
-        bullet.transform.forward = directionOfShot;
-        //Force that shoots the bullet from spawn position (gun) in certain direction. (Foward is the blue axis on the little compass thingy).
-
-        //Shooting the bullet
-        bullet.GetComponent<Rigidbody>().AddForce(directionOfShot * bulletVelocity, ForceMode.Impulse);//"Impulse" is the way that the force will work.
-
-        StartCoroutine(DestroyBullet(bullet, bulletLifetime)); //Removes the bullet after certain delayed applied to the bullet.
-
-        //The same way we check if we are allowed to start shooting we check if we are done shooting.
-        if (allowReset)
+        if (currentType != WeaponType.RPG)
         {
-            Invoke("ResetShooting", delayShot);
-            allowReset = false;
+            //We said that we cant start shooting once the shooting started.    
+            readyShooting = false;
+            Vector3 directionOfShot = DirectionAndSpreadCal().normalized;
+
+            //Instantiating the bullet.
+            GameObject bullet = Instantiate(bulletPrefab, bulletSpawn.position, Quaternion.identity);
+
+            Bullet bulletDamage = bullet.GetComponent<Bullet>();
+            bulletDamage.bDamage = damage;
+
+            //This is a pointer, points at the direction we are shooting.
+            bullet.transform.forward = directionOfShot;
+            //Force that shoots the bullet from spawn position (gun) in certain direction. (Foward is the blue axis on the little compass thingy).
+
+            //Shooting the bullet
+            bullet.GetComponent<Rigidbody>().AddForce(directionOfShot * bulletVelocity, ForceMode.Impulse);//"Impulse" is the way that the force will work.
+
+            StartCoroutine(DestroyBullet(bullet, bulletLifetime)); //Removes the bullet after certain delayed applied to the bullet.
+
+            //The same way we check if we are allowed to start shooting we check if we are done shooting.
+            if (allowReset)
+            {
+                Invoke("ResetShooting", delayShot);
+                allowReset = false;
+            }
+
+            //Checking if we are shooting in burst
+            if (currentType == WeaponType.Burst && currentBurst > 1) //Makes sure that if the weapon has still bullets to be shot in this burst reduces the amount left.
+            {
+                currentBurst--;
+                Invoke("FireWeapon", delayShot);
+            }
+        }
+        else
+        {
+            readyShooting = false;
+            Vector3 directionOfShot = DirectionAndSpreadCal().normalized;
+            GameObject missile = Instantiate(bulletPrefab, bulletSpawn.position, Quaternion.identity);
+
+            Missile missileDamage = missile.GetComponent<Missile>();
+            missileDamage.mDamage = damage;
+
+            missile.transform.forward = directionOfShot;
+
+            missile.GetComponent<Rigidbody>().AddForce(directionOfShot * bulletVelocity, ForceMode.Impulse);
+
+            if (allowReset)
+            {
+                Invoke("ResetShooting", delayShot);
+                allowReset = false;
+            }
+
         }
 
-        //Checking if we are shooting in burst
-        if (currentType == WeaponType.Burst && currentBurst > 1) //Makes sure that if the weapon has still bullets to be shot in this burst reduces the amount left.
-        {
-            currentBurst--;
-            Invoke("FireWeapon", delayShot);
-        }
     }
 
 

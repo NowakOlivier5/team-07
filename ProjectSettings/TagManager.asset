@@ -9,6 +9,7 @@ TagManager:
   - ProtoAgent
   - Bullet
   - DestrEnvironment
+  - Missile
   layers:
   - Default
   - TransparentFX

@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 4244018260466270760}
   - component: {fileID: 6341448602678235405}
   - component: {fileID: 5204225633166432462}
-  - component: {fileID: 3585616491721708799}
   - component: {fileID: 3709051160068848289}
+  - component: {fileID: 8519687717587501409}
   m_Layer: 0
-  m_Name: Bullet
+  m_Name: Missile
   m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -142,19 +142,6 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 2
---- !u!114 &3585616491721708799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6446694515735044545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39a33123304f5714ea3a35b1adee50a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Bullet
-  bDamage: 0
 --- !u!96 &3709051160068848289
 TrailRenderer:
   serializedVersion: 4
@@ -274,3 +261,17 @@ TrailRenderer:
   m_Autodestruct: 0
   m_Emitting: 1
   m_ApplyActiveColorSpace: 1
+--- !u!114 &8519687717587501409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6446694515735044545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe4aac326cbd5943aeb2d07c0e4bb85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Missile
+  damageRadious: 100
+  explosionForce: 5000
