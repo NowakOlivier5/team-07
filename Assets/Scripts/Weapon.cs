@@ -27,6 +27,7 @@ public class Weapon : MonoBehaviour
     public float delayShot = 2f; //Delay between shots.
     public float shootingSpread; //The spread of the bullets when being shot.
 
+    public int damage;
     //Shooting modes
     public int bulletsPerBurst = 3; //If shooting a burst of bullets it would be how many bullets per burst-
     public int currentBurst; //To work with the burst that just got shot. and not letting it behave like a full automatic.
@@ -87,6 +88,9 @@ public class Weapon : MonoBehaviour
             //Instantiating the bullet.
             GameObject bullet = Instantiate(bulletPrefab, bulletSpawn.position, Quaternion.identity);
 
+            Bullet bulletDamage = bullet.GetComponent<Bullet>();
+            bulletDamage.bDamage = damage;
+
             //This is a pointer, points at the direction we are shooting.
             bullet.transform.forward = directionOfShot;
             //Force that shoots the bullet from spawn position (gun) in certain direction. (Foward is the blue axis on the little compass thingy).
@@ -115,6 +119,9 @@ public class Weapon : MonoBehaviour
             readyShooting = false;
             Vector3 directionOfShot = DirectionAndSpreadCal().normalized;
             GameObject missile = Instantiate(bulletPrefab, bulletSpawn.position, Quaternion.identity);
+
+            Missile missileDamage = missile.GetComponent<Missile>();
+            missileDamage.mDamage = damage;
 
             missile.transform.forward = directionOfShot;
 

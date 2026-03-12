@@ -1788,11 +1788,10 @@ MonoBehaviour:
   readyShooting: 0
   delayShot: 0.4
   shootingSpread: 0.5
+  damage: 1
   bulletsPerBurst: 3
   currentBurst: 0
   currentType: 0
-  damageRadious: 30
-  explosionForce: 2000
 --- !u!1 &564769110
 GameObject:
   m_ObjectHideFlags: 0
@@ -2251,6 +2250,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5743350618785959237, guid: 8e58982a7f980e94eba543f73a16424a, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: -5543500264016486146, guid: 8e58982a7f980e94eba543f73a16424a, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.203
@@ -2274,6 +2277,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8e58982a7f980e94eba543f73a16424a, type: 3}
       propertyPath: m_Name
       value: map_tunnel
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8e58982a7f980e94eba543f73a16424a, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 8271353111539990690, guid: 8e58982a7f980e94eba543f73a16424a, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3322,7 +3333,7 @@ GameObject:
   - component: {fileID: 1054510039}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: WorldMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3434,7 +3445,7 @@ GameObject:
   - component: {fileID: 1104130177}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: WorldMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3637,13 +3648,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1128351179}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7014121, y: 0.16028017, z: 0.15659477, w: 0.6766162}
-  m_LocalPosition: {x: -11.848434, y: 5.405066, z: 0.13417946}
+  m_LocalRotation: {x: -0.0050018732, y: 0.70225126, z: 0.7025725, w: -0.11493464}
+  m_LocalPosition: {x: -0.0054, y: 1.0583, z: -0.0217}
   m_LocalScale: {x: 0.03411739, y: 0.012183473, z: 0.12645352}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 543450653322240486}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -99.73, y: 94.628, z: 94.321}
 --- !u!1 &1164118194
 GameObject:
   m_ObjectHideFlags: 0
@@ -4234,6 +4245,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 346005825481992857, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 363388732350307020, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 511743357952371578, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.7908528
@@ -4277,6 +4296,22 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723697496483776108, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 5003104212184444388, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991222826794697196, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5111,7 +5146,7 @@ GameObject:
   - component: {fileID: 1501071996}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: WorldMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7007,6 +7042,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 346005825481992857, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 363388732350307020, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 511743357952371578, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.61
@@ -7051,6 +7094,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -7058,6 +7105,14 @@ PrefabInstance:
     - target: {fileID: 4465982021734527388, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723697496483776108, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 5003104212184444388, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 6191314287518558247, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -7070,6 +7125,10 @@ PrefabInstance:
     - target: {fileID: 7515376139453691425, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991222826794697196, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7127,6 +7186,18 @@ PrefabInstance:
     - target: {fileID: 6794071172352558276, guid: 4c8ff2c01f8bb504f9f225360cc6849b, type: 3}
       propertyPath: m_Name
       value: mop+Bucket
+      objectReference: {fileID: 0}
+    - target: {fileID: 6794071172352558276, guid: 4c8ff2c01f8bb504f9f225360cc6849b, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 7251217937863025436, guid: 4c8ff2c01f8bb504f9f225360cc6849b, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 9032742642183165286, guid: 4c8ff2c01f8bb504f9f225360cc6849b, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7220,6 +7291,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 393940683577650247, guid: 845ad9c31eec9834683d99c10886d12d, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 971465511671474378, guid: 845ad9c31eec9834683d99c10886d12d, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 5129166857724672728, guid: 845ad9c31eec9834683d99c10886d12d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.05
@@ -7263,6 +7342,26 @@ PrefabInstance:
     - target: {fileID: 5504989430862241890, guid: 845ad9c31eec9834683d99c10886d12d, type: 3}
       propertyPath: m_Name
       value: destr.singleDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504989430862241890, guid: 845ad9c31eec9834683d99c10886d12d, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 5913888195805611982, guid: 845ad9c31eec9834683d99c10886d12d, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 6457029953934925141, guid: 845ad9c31eec9834683d99c10886d12d, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 8730817315097459710, guid: 845ad9c31eec9834683d99c10886d12d, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 8790511057939459674, guid: 845ad9c31eec9834683d99c10886d12d, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7379,6 +7478,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.fullWindow
       objectReference: {fileID: 0}
+    - target: {fileID: 1250816771255772609, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 1878031373180960635, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.072222
@@ -7418,6 +7521,14 @@ PrefabInstance:
     - target: {fileID: 1878031373180960635, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3144185505726749964, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 7738190573139023298, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7677,6 +7788,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 339678397451543423, guid: ea1ef57422f5db14da57c15399612fab, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 422488682216923264, guid: ea1ef57422f5db14da57c15399612fab, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 1028169185373366612, guid: ea1ef57422f5db14da57c15399612fab, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 1711356544898260782, guid: ea1ef57422f5db14da57c15399612fab, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 2269396672144970685, guid: ea1ef57422f5db14da57c15399612fab, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2746288602279109196, guid: ea1ef57422f5db14da57c15399612fab, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.67
@@ -7721,6 +7852,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.JanCloset
       objectReference: {fileID: 0}
+    - target: {fileID: 3267104529404705014, guid: ea1ef57422f5db14da57c15399612fab, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 3878805928579611042, guid: ea1ef57422f5db14da57c15399612fab, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 5002683148203184950, guid: ea1ef57422f5db14da57c15399612fab, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 5853714463981720234, guid: ea1ef57422f5db14da57c15399612fab, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 6446413001601496077, guid: ea1ef57422f5db14da57c15399612fab, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7734,6 +7885,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 918388680563291413, guid: d8741625ea8d29941a5014f30e83adc5, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 1378161231445889941, guid: d8741625ea8d29941a5014f30e83adc5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.76
@@ -7778,6 +7933,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.gasStShelf2
       objectReference: {fileID: 0}
+    - target: {fileID: 1759754040989468975, guid: d8741625ea8d29941a5014f30e83adc5, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 8866362077673131799, guid: d8741625ea8d29941a5014f30e83adc5, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7794,6 +7957,10 @@ PrefabInstance:
     - target: {fileID: 568269109979052229, guid: a41237be2571ab743a59fe58fdc6d711, type: 3}
       propertyPath: m_Name
       value: lampPost
+      objectReference: {fileID: 0}
+    - target: {fileID: 568269109979052229, guid: a41237be2571ab743a59fe58fdc6d711, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 912318752011362943, guid: a41237be2571ab743a59fe58fdc6d711, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7835,6 +8002,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4280681779298563887, guid: a41237be2571ab743a59fe58fdc6d711, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 7774331195839897819, guid: a41237be2571ab743a59fe58fdc6d711, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7870,11 +8045,10 @@ MonoBehaviour:
   readyShooting: 0
   delayShot: 0
   shootingSpread: 6
+  damage: 5
   bulletsPerBurst: 8
   currentBurst: 0
   currentType: 1
-  damageRadious: 30
-  explosionForce: 2000
 --- !u!95 &3469287836800840977
 Animator:
   serializedVersion: 7
@@ -7965,11 +8139,10 @@ MonoBehaviour:
   readyShooting: 0
   delayShot: 2
   shootingSpread: 0
+  damage: 40
   bulletsPerBurst: 3
   currentBurst: 0
   currentType: 4
-  damageRadious: 30
-  explosionForce: 2000
 --- !u!95 &3469287837306121797
 Animator:
   serializedVersion: 7
@@ -8022,11 +8195,10 @@ MonoBehaviour:
   readyShooting: 0
   delayShot: 0.3
   shootingSpread: 1
+  damage: 2
   bulletsPerBurst: 3
   currentBurst: 0
   currentType: 2
-  damageRadious: 30
-  explosionForce: 2000
 --- !u!95 &3469287838126694765
 Animator:
   serializedVersion: 7
@@ -8057,9 +8229,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 352262208686084360, guid: 43069ea1112e7dd46b22cf8f54427c6e, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 981799465645430679, guid: 43069ea1112e7dd46b22cf8f54427c6e, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 3564864220993052464, guid: 43069ea1112e7dd46b22cf8f54427c6e, type: 3}
       propertyPath: m_Name
       value: destr.glassDoubleWindowDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564864220993052464, guid: 43069ea1112e7dd46b22cf8f54427c6e, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 4193732732951070090, guid: 43069ea1112e7dd46b22cf8f54427c6e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8101,6 +8285,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5186163744180690991, guid: 43069ea1112e7dd46b22cf8f54427c6e, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8114,9 +8302,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 279435752805717422, guid: 06538c54e9188564eb948090e1e5a15d, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 552218273339307511, guid: 06538c54e9188564eb948090e1e5a15d, type: 3}
       propertyPath: m_Name
       value: destr.clerkCounter
+      objectReference: {fileID: 0}
+    - target: {fileID: 552218273339307511, guid: 06538c54e9188564eb948090e1e5a15d, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 928321191862480717, guid: 06538c54e9188564eb948090e1e5a15d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8158,6 +8354,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1243033624377362274, guid: 06538c54e9188564eb948090e1e5a15d, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 1842847074886460272, guid: 06538c54e9188564eb948090e1e5a15d, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 4641881223303329469, guid: 06538c54e9188564eb948090e1e5a15d, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 4710718641488415407, guid: 06538c54e9188564eb948090e1e5a15d, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 7080074705318607803, guid: 06538c54e9188564eb948090e1e5a15d, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 7282138406688087363, guid: 06538c54e9188564eb948090e1e5a15d, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 7937715932576426319, guid: 06538c54e9188564eb948090e1e5a15d, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 8118789703621263828, guid: 06538c54e9188564eb948090e1e5a15d, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 9048162600506426868, guid: 06538c54e9188564eb948090e1e5a15d, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8171,9 +8403,57 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 776531564428355337, guid: 45f2e94cf40c33e4ea7da10e2733e5f4, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 868885273013891561, guid: 45f2e94cf40c33e4ea7da10e2733e5f4, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 1596991235131717605, guid: 45f2e94cf40c33e4ea7da10e2733e5f4, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 2383486896659466480, guid: 45f2e94cf40c33e4ea7da10e2733e5f4, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 4843272700503950189, guid: 45f2e94cf40c33e4ea7da10e2733e5f4, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 4937314231704135198, guid: 45f2e94cf40c33e4ea7da10e2733e5f4, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 6784288191256630563, guid: 45f2e94cf40c33e4ea7da10e2733e5f4, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 6867038003964548828, guid: 45f2e94cf40c33e4ea7da10e2733e5f4, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758196759191664439, guid: 45f2e94cf40c33e4ea7da10e2733e5f4, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 8003236623088270086, guid: 45f2e94cf40c33e4ea7da10e2733e5f4, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 8551578540841078101, guid: 45f2e94cf40c33e4ea7da10e2733e5f4, type: 3}
       propertyPath: m_Name
       value: destr.doubleDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 8551578540841078101, guid: 45f2e94cf40c33e4ea7da10e2733e5f4, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 8701659783790562506, guid: 45f2e94cf40c33e4ea7da10e2733e5f4, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 9072114367308224495, guid: 45f2e94cf40c33e4ea7da10e2733e5f4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8228,9 +8508,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1386651300139013272, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2431100951268025296, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
       propertyPath: m_Name
       value: destr.pillar
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431100951268025296, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 3095892433066637674, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8272,6 +8560,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7055803587704836460, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 7672103350462235174, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 8636576908350846398, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8285,6 +8585,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 979426348126465404, guid: 5641b1b38a76c62459d705bbf3717179, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 1509040696298696839, guid: 5641b1b38a76c62459d705bbf3717179, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 7314611339102181950, guid: 5641b1b38a76c62459d705bbf3717179, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.493924
@@ -8328,6 +8636,10 @@ PrefabInstance:
     - target: {fileID: 7983027188914618500, guid: 5641b1b38a76c62459d705bbf3717179, type: 3}
       propertyPath: m_Name
       value: destr.halfWindow
+      objectReference: {fileID: 0}
+    - target: {fileID: 7983027188914618500, guid: 5641b1b38a76c62459d705bbf3717179, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8382,9 +8694,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 636165939343563749, guid: d159b19917fd43e478d4d37e0359e949, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 771662382544326322, guid: d159b19917fd43e478d4d37e0359e949, type: 3}
       propertyPath: m_Name
       value: destr.glassSingleWindowDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 771662382544326322, guid: d159b19917fd43e478d4d37e0359e949, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 4552843844988371082, guid: d159b19917fd43e478d4d37e0359e949, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8399,6 +8723,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 341431491085211297, guid: 901ce1de456c22d4fbda4e431dae909f, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 415303497920055793, guid: 901ce1de456c22d4fbda4e431dae909f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.96
@@ -8443,6 +8771,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.gasStShelf1
       objectReference: {fileID: 0}
+    - target: {fileID: 1047268298979332939, guid: 901ce1de456c22d4fbda4e431dae909f, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 4119933818902873128, guid: 901ce1de456c22d4fbda4e431dae909f, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 5850310718069905232, guid: 901ce1de456c22d4fbda4e431dae909f, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8456,6 +8796,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1367326501122158910, guid: 23cfce9b28199a24890c0d3952d519eb, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 1991184595622326905, guid: 23cfce9b28199a24890c0d3952d519eb, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 2361236945258958708, guid: 23cfce9b28199a24890c0d3952d519eb, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 3826981755787064138, guid: 23cfce9b28199a24890c0d3952d519eb, type: 3}
       propertyPath: isGlass
       value: 1
@@ -8463,6 +8815,10 @@ PrefabInstance:
     - target: {fileID: 7033008247753343610, guid: 23cfce9b28199a24890c0d3952d519eb, type: 3}
       propertyPath: m_Name
       value: destr.highWindowWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 7033008247753343610, guid: 23cfce9b28199a24890c0d3952d519eb, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 7697094942581807296, guid: 23cfce9b28199a24890c0d3952d519eb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8503,6 +8859,18 @@ PrefabInstance:
     - target: {fileID: 7697094942581807296, guid: 23cfce9b28199a24890c0d3952d519eb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8182604875139409746, guid: 23cfce9b28199a24890c0d3952d519eb, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 8225113903623135768, guid: 23cfce9b28199a24890c0d3952d519eb, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 9111831185391530435, guid: 23cfce9b28199a24890c0d3952d519eb, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

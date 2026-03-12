@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class Missile : MonoBehaviour
 {
-    public float damageRadious = 30f; //The "explosion radious"
-    public float explosionForce = 2000f; //The force that will push objects with
-
+    [SerializeField] float damageRadious = 30f; //The "explosion radious"
+    [SerializeField] float explosionForce = 2000f; //The force that will push objects with
+    public int mDamage;
     //This is mostly the same as the bullet but for a missile.
     private void OnCollisionEnter(Collision collision)
     {
