@@ -38,6 +38,14 @@ public class WeaponSlotsManager : MonoBehaviour
         {
             SwitchSlot(2);
         }
+        if (Input.GetKey(KeyCode.Alpha4))
+        {
+            SwitchSlot(3);
+        }
+        if (Input.GetKey(KeyCode.Alpha5))
+        {
+            SwitchSlot(4);
+        }
     }
     private void SwitchSlot(int slotNumber) //It receives a number and that number is the slot. 
     { //SO to avoid CRASHING in case that for some reason we decide to remove a weapon from the slots we do some check ups. It also brings all the components of the weapons so they mantain their own behaviours.

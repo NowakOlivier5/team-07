@@ -32,13 +32,13 @@ public class Weapon : MonoBehaviour
 
     public WeaponType currentType; //how we are going to compare in if statements for the weapon to have the corresponding behaviours.
 
-    public Vector3 spawnPosition; //This I might remove later, but for now is in case you guys decide to make weapons a "pick up" we need to tell the object to what position should go when picked up, so its good to be able to set that information.
-    public Vector3 spawnRotation;
+    private Animator animator; //The aniamtor plays the animations of the weapon after receiving the correct "trigger" 
 
     private void Awake()
     {
         readyShooting = true;
         currentBurst = bulletsPerBurst; //when ther are no more bullets in that burst, means that the burst is over.
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -75,6 +75,7 @@ public class Weapon : MonoBehaviour
 
     private void FireWeapon()
     {
+        animator.SetTrigger("RECOIL");
         //We said that we cant start shooting once the shooting started.    
         readyShooting = false;
         Vector3 directionOfShot = DirectionAndSpreadCal().normalized;
