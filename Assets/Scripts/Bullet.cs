@@ -21,7 +21,7 @@ public class Bullet : MonoBehaviour
         if (collision.gameObject.CompareTag("ProtoAgent"))
         {
             Destroy(gameObject);
-            ProtoAI enemy = collision.gameObject.GetComponent<ProtoAI>();
+            ProtoAI enemy = collision.gameObject.GetComponentInParent<ProtoAI>();
             enemy.Die(bDamage);
         }
     }

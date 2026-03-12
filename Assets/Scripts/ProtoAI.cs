@@ -72,14 +72,13 @@ public class ProtoAI : MonoBehaviour
     {
         // Reduces the monster health when hit
         monsterHealth -= damage;
-
         if (monsterHealth <= 0)
         {
             // Disables the navmesh agent
             GetComponent<NavMeshAgent>().enabled = false;
 
             // Gets the rigidbody component of the proto agent and disables kinematic and makes it use gravity
-            Rigidbody rb = GetComponent<Rigidbody>();
+            Rigidbody rb = GetComponentInChildren<Rigidbody>();
             rb.isKinematic = false;
             rb.useGravity = true;
 
