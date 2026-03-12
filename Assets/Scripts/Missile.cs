@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Missile : MonoBehaviour
 {
-    [SerializeField] float damageRadious = 30f; //The "explosion radious"
+    [SerializeField] float damageRadious = 5f; //The "explosion radious"
     [SerializeField] float explosionForce = 2000f; //The force that will push objects with
     public int mDamage;
     //This is mostly the same as the bullet but for a missile.
@@ -25,7 +25,7 @@ public class Missile : MonoBehaviour
         {
             Explosion();
             ProtoAI enemy = collision.gameObject.GetComponent<ProtoAI>();
-            enemy.Die();
+            enemy.Die(5);
         }
     }
 
@@ -38,6 +38,12 @@ public class Missile : MonoBehaviour
             if (r != null) //If the object has a rigid body it applies the force to it if its in the raidous.
             {
                 r.AddExplosionForce(explosionForce, transform.position, damageRadious);
+            }
+
+            Destroy destructible = objectInRange.GetComponent<Destroy>();
+            if (destructible != null)
+            {
+                destructible.TakeDamage(5);
             }
         }
     }

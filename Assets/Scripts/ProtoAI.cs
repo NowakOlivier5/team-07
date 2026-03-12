@@ -68,10 +68,10 @@ public class ProtoAI : MonoBehaviour
 
     // Turns the agents kinematic off and turns on gravity for the agent when hit by a projectile
     // Called in from the bullet script
-    public void Die()
+    public void Die(int damage)
     {
         // Reduces the monster health when hit
-        monsterHealth--;
+        monsterHealth -= damage;
 
         if (monsterHealth <= 0)
         {
