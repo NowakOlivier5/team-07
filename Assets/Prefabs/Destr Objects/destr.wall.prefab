@@ -50,19 +50,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4179847982267211403, guid: 67a521e1263b96e44b5e79b22e2078ad, type: 3}
       propertyPath: m_TagString
-      value: Target
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: -1263773784603587203, guid: 67a521e1263b96e44b5e79b22e2078ad, type: 3}
       propertyPath: m_TagString
-      value: Target
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 314663550952285704, guid: 67a521e1263b96e44b5e79b22e2078ad, type: 3}
       propertyPath: m_TagString
-      value: Target
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 404108466681632349, guid: 67a521e1263b96e44b5e79b22e2078ad, type: 3}
       propertyPath: m_TagString
-      value: Target
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 67a521e1263b96e44b5e79b22e2078ad, type: 3}
       propertyPath: m_Name
@@ -70,7 +70,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4692006968951737085, guid: 67a521e1263b96e44b5e79b22e2078ad, type: 3}
       propertyPath: m_TagString
-      value: Target
+      value: WorldMap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
