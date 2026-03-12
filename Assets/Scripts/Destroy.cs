@@ -65,7 +65,7 @@ public class Destroy : MonoBehaviour
     {
         if (other.CompareTag("ProtoAgent"))
         {
-            objectHealth = 0;
+            TakeDamage(5);
         }
     }
 }

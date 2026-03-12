@@ -7,7 +7,7 @@ public class ProtoAI : MonoBehaviour
 {
     // Agent Variables
     public Transform target;
-    private float closeDistance = 2;
+    private float closeDistance = 5;
     public float protoVisionRange = 18;
     public int monsterHealth = 5;
 
@@ -23,7 +23,7 @@ public class ProtoAI : MonoBehaviour
         // Loads the NavMeshAgent to work with the agent and disables the gravity so the navagent can move
         // properly and up stairs/obstacles
         protoAgent = GetComponent<NavMeshAgent>();
-        Rigidbody rb = GetComponent<Rigidbody>();
+        Rigidbody rb = GetComponentInChildren<Rigidbody>();
         rb.isKinematic = true;
         rb.useGravity = false;
     }
