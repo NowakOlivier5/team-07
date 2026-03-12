@@ -428,6 +428,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (163)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -515,6 +519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (06)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -596,6 +604,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -679,6 +691,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -755,6 +771,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (97)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -837,6 +857,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (145)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -1003,6 +1027,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (159)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -1216,6 +1244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (125)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -1412,6 +1444,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (154)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -1508,6 +1544,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -1628,6 +1668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -1704,6 +1748,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (195)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -1787,6 +1835,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -1869,6 +1921,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -1946,6 +2002,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -2022,6 +2082,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -2137,6 +2201,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -2214,6 +2282,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (86)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -2290,6 +2362,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -2592,6 +2668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (92)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -2689,6 +2769,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -2766,6 +2850,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -2842,6 +2930,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -3136,6 +3228,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (183)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -3217,6 +3313,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -3490,6 +3590,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (189)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -3531,6 +3635,10 @@ PrefabInstance:
     - target: {fileID: 2431100951268025296, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
       propertyPath: m_Name
       value: destr.pillar (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431100951268025296, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 3095892433066637674, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3633,6 +3741,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d3cc5dda382fa464bb3cf7aebc62a41c, type: 3}
       propertyPath: m_Name
       value: destr.singleDoorWall (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d3cc5dda382fa464bb3cf7aebc62a41c, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3891,6 +4003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (70)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -3998,6 +4114,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -4074,6 +4194,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (150)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -4157,6 +4281,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -4233,6 +4361,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -4317,6 +4449,10 @@ PrefabInstance:
     - target: {fileID: 1250816771255772609, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
       propertyPath: m_Name
       value: destr.fullWindow (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250816771255772609, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 1878031373180960635, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4425,6 +4561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (182)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -4471,6 +4611,10 @@ PrefabInstance:
     - target: {fileID: 2431100951268025296, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
       propertyPath: m_Name
       value: destr.pillar (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431100951268025296, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 3095892433066637674, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4616,6 +4760,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (187)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -4697,6 +4845,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (102)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -4888,7 +5040,7 @@ GameObject:
   - component: {fileID: 364025620}
   m_Layer: 0
   m_Name: Gas Station
-  m_TagString: Untagged
+  m_TagString: WorldMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5195,6 +5347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -5276,6 +5432,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (193)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -5359,6 +5519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (98)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -5440,6 +5604,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d3cc5dda382fa464bb3cf7aebc62a41c, type: 3}
       propertyPath: m_Name
       value: destr.singleDoorWall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d3cc5dda382fa464bb3cf7aebc62a41c, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5683,6 +5851,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -5760,6 +5932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (106)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -5801,6 +5977,10 @@ PrefabInstance:
     - target: {fileID: 1250816771255772609, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
       propertyPath: m_Name
       value: destr.fullWindow (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250816771255772609, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 1878031373180960635, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5903,6 +6083,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (152)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -6235,6 +6419,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.singleDoorWall (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d3cc5dda382fa464bb3cf7aebc62a41c, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6551,6 +6739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -6685,6 +6877,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (200)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -6767,6 +6963,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (180)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -6848,6 +7048,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (84)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -6968,6 +7172,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -7081,6 +7289,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (153)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -7122,6 +7334,10 @@ PrefabInstance:
     - target: {fileID: 2431100951268025296, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
       propertyPath: m_Name
       value: destr.pillar (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431100951268025296, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 3095892433066637674, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7225,6 +7441,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (161)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -7306,6 +7526,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d3cc5dda382fa464bb3cf7aebc62a41c, type: 3}
       propertyPath: m_Name
       value: destr.singleDoorWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d3cc5dda382fa464bb3cf7aebc62a41c, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7402,6 +7626,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d3cc5dda382fa464bb3cf7aebc62a41c, type: 3}
       propertyPath: m_Name
       value: destr.singleDoorWall (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d3cc5dda382fa464bb3cf7aebc62a41c, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7645,6 +7873,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (148)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -7686,6 +7918,10 @@ PrefabInstance:
     - target: {fileID: 1250816771255772609, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
       propertyPath: m_Name
       value: destr.fullWindow (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250816771255772609, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 1878031373180960635, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7873,6 +8109,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (171)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -7960,6 +8200,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (206)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -8001,6 +8245,10 @@ PrefabInstance:
     - target: {fileID: 3564864220993052464, guid: 43069ea1112e7dd46b22cf8f54427c6e, type: 3}
       propertyPath: m_Name
       value: destr.glassDoubleWindowDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564864220993052464, guid: 43069ea1112e7dd46b22cf8f54427c6e, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 4193732732951070090, guid: 43069ea1112e7dd46b22cf8f54427c6e, type: 3}
       propertyPath: m_LocalScale.y
@@ -8145,6 +8393,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -8221,6 +8473,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (184)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -8304,6 +8560,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -8385,6 +8645,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (208)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -8580,6 +8844,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (80)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -8682,6 +8950,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (204)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -8801,6 +9073,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -9001,6 +9277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -9087,6 +9367,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (160)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -9243,6 +9527,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -9377,6 +9665,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (139)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -9603,6 +9895,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (109)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -9684,6 +9980,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (167)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -9772,6 +10072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -9853,6 +10157,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (192)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -9936,6 +10244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -10018,6 +10330,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -10094,6 +10410,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (123)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -10282,6 +10602,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -10431,6 +10755,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.pillar (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2431100951268025296, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 3095892433066637674, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 49.6
@@ -10533,6 +10861,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -10620,6 +10952,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (133)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -10687,6 +11023,37 @@ Transform:
   - {fileID: 543450651994156750}
   m_Father: {fileID: 583581542}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &702115822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 702115823}
+  m_Layer: 0
+  m_Name: BulletSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &702115823
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702115822}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0014744254, y: -0.7053855, z: -0.70882213, w: 0.00047554082}
+  m_LocalPosition: {x: 0.002, y: 1.1149, z: -0.0225}
+  m_LocalScale: {x: 0.028819086, y: 0.010990325, z: 0.12486627}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 543450653322240486}
+  m_LocalEulerAnglesHint: {x: -90.29, y: -163.714, z: -16.128}
 --- !u!1001 &702779675
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10738,6 +11105,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (191)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -10821,6 +11192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (158)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -10903,6 +11278,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (141)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -10949,6 +11328,10 @@ PrefabInstance:
     - target: {fileID: 1250816771255772609, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
       propertyPath: m_Name
       value: destr.fullWindow (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250816771255772609, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 1878031373180960635, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11047,6 +11430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -11123,6 +11510,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (113)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -11205,6 +11596,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (197)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -11399,6 +11794,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (104)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -11684,6 +12083,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -11766,6 +12169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -11847,6 +12254,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -11935,6 +12346,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (186)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -12016,6 +12431,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (194)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -12179,6 +12598,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (176)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -12260,6 +12683,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -12580,6 +13007,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (135)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -12626,6 +13057,10 @@ PrefabInstance:
     - target: {fileID: 1250816771255772609, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
       propertyPath: m_Name
       value: destr.fullWindow (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250816771255772609, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 1878031373180960635, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12728,6 +13163,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -12918,6 +13357,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -13005,6 +13448,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -13086,6 +13533,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (142)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -13174,6 +13625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (121)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -13255,6 +13710,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (199)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -13338,6 +13797,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -13414,6 +13877,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -13492,6 +13959,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -13568,6 +14039,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (130)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -13660,6 +14135,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (65)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -13878,6 +14357,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (211)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -14049,6 +14532,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (205)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -14130,6 +14617,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (107)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -14213,6 +14704,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -14290,6 +14785,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (196)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -14328,6 +14827,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 208187841}
     m_Modifications:
+    - target: {fileID: -9203324390398772745, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -8856916482769721425, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -8741110732968603150, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.25
@@ -14384,6 +14895,166 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8455728280606582528, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -8391222552659086748, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -8291026482696733167, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -7966619703863510457, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -7859452135489327247, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -7677471772335586173, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -7515429101286732190, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -7395704305543789238, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -7211493906249344334, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -6984071930155338516, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -6792889981931915972, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -6280115406292360504, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -6279200341436768196, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -5754060345647867467, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -5726429076342513793, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -5665598128452317815, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -5569043992460113364, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -5317621499353570459, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -4995978793120712304, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -4961241221372467197, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -4960584510277547667, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -4906838889796845047, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -4687092774953396032, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -4058879426038799192, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -3778644264426962316, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -3590349239161715947, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -3540495426589365078, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -3410185793394415013, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -3204278570263924113, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -2764512629625626004, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -2708154884655294420, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -2579778158024004493, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -2040254050740271484, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -1640387438592477178, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -1389027052562833297, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: -643231337809935376, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 26844662620191305, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 152955310288243915, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 585220623989814957, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 784848638548316577, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
       propertyPath: m_Name
       value: unrigged_protoype_monster1
@@ -14395,6 +15066,190 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
       propertyPath: m_TagString
       value: Target
+      objectReference: {fileID: 0}
+    - target: {fileID: 979550669581682856, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 1753891749128454578, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 1995249484064183034, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 2438169498243050634, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 2542943783081841874, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 2560093695731237541, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 2596957926113402938, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 2829333810493571341, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 2893663845602822967, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 2895767802263474953, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291190919447392298, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455292422214010178, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 3559817854460706613, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 3680790780975612072, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 3881992704548618285, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 4103881766339141800, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268219909948482833, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 4356877828898064976, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 4501264997562780336, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 4504409719310791647, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 4649304590781711473, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 4820430768751134679, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5032367554210779434, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5194334309628646677, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5717517558573070006, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5756448189439395031, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 5895745409856906849, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 6784796483501048503, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 6897072526277454241, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 6930249640797549767, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 7045030354117346258, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 7066591726159187827, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 7165155246341164202, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674941318569428411, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 7686964601804325337, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 7917349904687423284, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 7975042476016782316, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409191586009873183, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 8654812043003470832, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 8962635848729988843, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 9013638940889411661, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 9017328541939089309, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 9052062990486520971, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 9141816029861474070, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 9208135887483320983, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
+      objectReference: {fileID: 0}
+    - target: {fileID: 9217234437682292332, guid: 9cc6ff3ee43fd0844a89721307ef0345, type: 3}
+      propertyPath: m_TagString
+      value: ProtoAgent
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14570,6 +15425,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (213)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -14721,6 +15580,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -14798,6 +15661,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -14874,6 +15741,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (127)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -15088,6 +15959,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (120)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -15175,6 +16050,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (190)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -15247,6 +16126,10 @@ PrefabInstance:
     - target: {fileID: 2431100951268025296, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
       propertyPath: m_Name
       value: destr.pillar (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431100951268025296, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 3095892433066637674, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15350,6 +16233,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -15431,6 +16318,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (132)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -15519,6 +16410,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (119)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -15601,6 +16496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (215)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -15682,6 +16581,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -15872,6 +16775,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -15954,6 +16861,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (128)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -16035,6 +16946,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (174)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -16123,6 +17038,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (95)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -16210,6 +17129,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -16286,6 +17209,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (168)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -16369,6 +17296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -16445,6 +17376,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (165)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -16645,6 +17580,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -16727,6 +17666,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -16803,6 +17746,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (214)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -16977,6 +17924,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (129)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -17058,6 +18009,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (203)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -17299,6 +18254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -17417,6 +18376,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -17547,6 +18510,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (03)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -17629,6 +18596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -17705,6 +18676,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (143)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -17788,6 +18763,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -17869,6 +18848,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (116)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -17957,6 +18940,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (166)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -18044,6 +19031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (149)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -18125,6 +19116,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d3cc5dda382fa464bb3cf7aebc62a41c, type: 3}
       propertyPath: m_Name
       value: destr.singleDoorWall (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d3cc5dda382fa464bb3cf7aebc62a41c, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18328,6 +19323,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.pillar (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2431100951268025296, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 3095892433066637674, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.41
@@ -18429,6 +19428,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -18763,6 +19766,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.pillar (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2431100951268025296, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 3095892433066637674, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 49.585
@@ -18819,6 +19826,10 @@ PrefabInstance:
     - target: {fileID: 3564864220993052464, guid: 43069ea1112e7dd46b22cf8f54427c6e, type: 3}
       propertyPath: m_Name
       value: destr.glassDoubleWindowDoor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564864220993052464, guid: 43069ea1112e7dd46b22cf8f54427c6e, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 4193732732951070090, guid: 43069ea1112e7dd46b22cf8f54427c6e, type: 3}
       propertyPath: m_LocalScale.y
@@ -18921,6 +19932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (181)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -19007,6 +20022,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -19164,6 +20183,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (103)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -19439,6 +20462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -19561,6 +20588,10 @@ PrefabInstance:
     - target: {fileID: 1250816771255772609, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
       propertyPath: m_Name
       value: destr.fullWindow (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250816771255772609, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 1878031373180960635, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19743,8 +20774,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 926004989}
-  - {fileID: 1467946056}
   - {fileID: 1770307607}
+  - {fileID: 1467946056}
   m_Father: {fileID: 1123936490}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1337160114 stripped
@@ -19835,6 +20866,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -19950,6 +20985,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (185)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -20031,6 +21070,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -20208,6 +21251,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.pillar
       objectReference: {fileID: 0}
+    - target: {fileID: 2431100951268025296, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 3095892433066637674, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 49.6
@@ -20310,6 +21357,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (169)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -20388,7 +21439,7 @@ GameObject:
   - component: {fileID: 1405331856}
   m_Layer: 0
   m_Name: Roads
-  m_TagString: Untagged
+  m_TagString: WorldMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20575,6 +21626,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (134)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -20656,6 +21711,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -20739,6 +21798,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -20821,6 +21884,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -20897,6 +21964,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (157)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -20979,6 +22050,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (179)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -21249,6 +22324,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.fullWindow (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1250816771255772609, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 1878031373180960635, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -34.328
@@ -21345,6 +22424,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d3cc5dda382fa464bb3cf7aebc62a41c, type: 3}
       propertyPath: m_Name
       value: destr.singleDoorWall (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d3cc5dda382fa464bb3cf7aebc62a41c, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21553,6 +22636,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.pillar (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2431100951268025296, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 3095892433066637674, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.41
@@ -21654,6 +22741,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -21836,6 +22927,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -21918,6 +23013,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -21999,6 +23098,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -22166,6 +23269,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -22277,6 +23384,10 @@ PrefabInstance:
     - target: {fileID: 2431100951268025296, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
       propertyPath: m_Name
       value: destr.pillar (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431100951268025296, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 3095892433066637674, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22502,6 +23613,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (170)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -22583,6 +23698,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (108)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -22666,6 +23785,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (155)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -22747,6 +23870,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (202)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -22830,6 +23957,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (126)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -22911,6 +24042,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (164)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -22994,6 +24129,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -23075,6 +24214,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (147)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -23163,6 +24306,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -23245,6 +24392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (138)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -23286,6 +24437,10 @@ PrefabInstance:
     - target: {fileID: 2431100951268025296, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
       propertyPath: m_Name
       value: destr.pillar (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431100951268025296, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 3095892433066637674, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23388,6 +24543,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -23578,6 +24737,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (212)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -23660,6 +24823,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -23736,6 +24903,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -23829,6 +25000,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3f631594ac5751f41a42fb8603c5beaf, type: 3}
       propertyPath: m_Name
       value: humvee (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3f631594ac5751f41a42fb8603c5beaf, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24126,6 +25301,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -24394,6 +25573,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -24443,7 +25626,7 @@ GameObject:
   - component: {fileID: 1698005511}
   m_Layer: 0
   m_Name: Gas Station Floor
-  m_TagString: Untagged
+  m_TagString: WorldMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24593,6 +25776,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -24673,6 +25860,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (210)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -24807,6 +25998,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (156)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -24925,6 +26120,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (05)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -25218,6 +26417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (101)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -25300,6 +26503,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (115)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -25381,6 +26588,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (117)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -25688,6 +26899,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (137)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -25769,6 +26984,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (207)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -25992,6 +27211,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -26041,7 +27264,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1770307606}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -26101,6 +27324,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (136)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -26306,6 +27533,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (198)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -26505,6 +27736,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -26586,6 +27821,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (177)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -26669,6 +27908,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (173)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -26750,6 +27993,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (124)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -26833,6 +28080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (79)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -26909,6 +28160,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (151)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -27000,6 +28255,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (209)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -27288,6 +28547,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.fullWindow (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1250816771255772609, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 1878031373180960635, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.546
@@ -27497,6 +28760,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -27579,6 +28846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -27655,6 +28926,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (175)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -27743,6 +29018,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (140)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -27825,6 +29104,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (144)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -27906,6 +29189,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (162)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -28024,6 +29311,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (188)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -28243,6 +29534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (07)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -28325,6 +29620,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -28361,6 +29660,10 @@ PrefabInstance:
     - target: {fileID: 2431100951268025296, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
       propertyPath: m_Name
       value: destr.pillar (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2431100951268025296, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 3095892433066637674, guid: c2b6ccb7cd0dcc644b405570409708b9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28464,6 +29767,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (172)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -28505,6 +29812,10 @@ PrefabInstance:
     - target: {fileID: 1250816771255772609, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
       propertyPath: m_Name
       value: destr.fullWindow
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250816771255772609, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 1878031373180960635, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -28603,6 +29914,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -28685,6 +30000,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (146)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -28766,6 +30085,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (178)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -28854,6 +30177,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -28935,6 +30262,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (105)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -29023,6 +30354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -29100,6 +30435,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -29176,6 +30515,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -29255,6 +30598,10 @@ PrefabInstance:
     - target: {fileID: 1250816771255772609, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
       propertyPath: m_Name
       value: destr.fullWindow (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1250816771255772609, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 1878031373180960635, guid: 4814252a76c116f4fa9aeec59b6246f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -29353,6 +30700,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (131)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -29435,6 +30786,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -29516,6 +30871,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -29641,6 +31000,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (08)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -29722,6 +31085,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (63)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -29847,6 +31214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (201)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -29929,6 +31300,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: destr.wall (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
+      objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
       value: 0
@@ -30005,6 +31380,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (118)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -30092,6 +31471,10 @@ PrefabInstance:
     - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_Name
       value: destr.wall (112)
+      objectReference: {fileID: 0}
+    - target: {fileID: 887705504289845696, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
+      propertyPath: m_TagString
+      value: WorldMap
       objectReference: {fileID: 0}
     - target: {fileID: 2644908330190837140, guid: ba6907d3c9b9995498d03fd605c47fbc, type: 3}
       propertyPath: m_IsTrigger
@@ -30392,7 +31775,7 @@ Transform:
   m_LocalScale: {x: 3.4699998, y: 2.3135512, z: 9.107766}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 1128351180}
+  - {fileID: 702115823}
   m_Father: {fileID: 1345885209}
   m_LocalEulerAnglesHint: {x: -89.98, y: -179, z: 0}
 --- !u!1001 &803852997397051411
@@ -31252,14 +32635,14 @@ MonoBehaviour:
   playerCamera: {fileID: 1337034514}
   bulletPrefab: {fileID: 6446694515735044545, guid: 7b4d3dca962e4d54f840dd344f6ace06, type: 3}
   isActiveWeapon: 0
-  bulletSpawn: {fileID: 1128351180}
+  bulletSpawn: {fileID: 702115823}
   bulletVelocity: 10
   bulletLifetime: 6
   isShooting: 0
   readyShooting: 0
   delayShot: 2
   shootingSpread: 0
-  damage: 40
+  damage: 5
   bulletsPerBurst: 3
   currentBurst: 0
   currentType: 4
@@ -31313,8 +32696,8 @@ MonoBehaviour:
   bulletLifetime: 3
   isShooting: 0
   readyShooting: 0
-  delayShot: 0.3
-  shootingSpread: 1
+  delayShot: 0.1
+  shootingSpread: 0.3
   damage: 2
   bulletsPerBurst: 3
   currentBurst: 0

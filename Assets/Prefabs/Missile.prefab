@@ -273,5 +273,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fe4aac326cbd5943aeb2d07c0e4bb85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Missile
-  damageRadious: 100
-  explosionForce: 5000
+  damageRadious: 5
+  explosionForce: 10000
+  mDamage: 0

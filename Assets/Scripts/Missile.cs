@@ -19,13 +19,16 @@ public class Missile : MonoBehaviour
         if (collision.gameObject.CompareTag("WorldMap"))
         {
             Explosion();
+            Destroy destructible = collision.gameObject.GetComponent<Destroy>();
+            destructible.TakeDamage(mDamage);
             Destroy(gameObject);
         }
         if (collision.gameObject.CompareTag("ProtoAgent"))
         {
             Explosion();
             ProtoAI enemy = collision.gameObject.GetComponent<ProtoAI>();
-            enemy.Die(5);
+            enemy.Die(mDamage);
+            Destroy(gameObject);
         }
     }
 
@@ -39,11 +42,14 @@ public class Missile : MonoBehaviour
             {
                 r.AddExplosionForce(explosionForce, transform.position, damageRadious);
             }
-
+            if (objectInRange.gameObject.GetComponent<ProtoAI>())
+            {
+                objectInRange.gameObject.GetComponent<ProtoAI>().Die(mDamage);
+            }
             Destroy destructible = objectInRange.GetComponent<Destroy>();
             if (destructible != null)
             {
-                destructible.TakeDamage(5);
+                destructible.TakeDamage(mDamage);
             }
         }
     }
