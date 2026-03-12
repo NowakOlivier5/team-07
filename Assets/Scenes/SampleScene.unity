@@ -32636,7 +32636,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 6446694515735044545, guid: 7b4d3dca962e4d54f840dd344f6ace06, type: 3}
   isActiveWeapon: 0
   bulletSpawn: {fileID: 702115823}
-  bulletVelocity: 10
+  bulletVelocity: 35
   bulletLifetime: 6
   isShooting: 0
   readyShooting: 0

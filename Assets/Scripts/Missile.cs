@@ -12,23 +12,23 @@ public class Missile : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Target"))
         {
-            Explosion();
             Destroy(gameObject);
+            Explosion();
         }
 
         if (collision.gameObject.CompareTag("WorldMap"))
         {
+            Destroy(gameObject);
             Explosion();
             Destroy destructible = collision.gameObject.GetComponent<Destroy>();
             destructible.TakeDamage(mDamage);
-            Destroy(gameObject);
         }
         if (collision.gameObject.CompareTag("ProtoAgent"))
         {
+            Destroy(gameObject);
             Explosion();
             ProtoAI enemy = collision.gameObject.GetComponent<ProtoAI>();
             enemy.Die(mDamage);
-            Destroy(gameObject);
         }
     }
 
