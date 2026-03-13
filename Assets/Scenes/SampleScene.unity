@@ -30499,7 +30499,7 @@ MonoBehaviour:
   isShooting: 0
   readyShooting: 0
   delayShot: 0
-  shootingSpread: 6
+  shootingSpread: 4
   damage: 5
   bulletsPerBurst: 8
   currentBurst: 0
