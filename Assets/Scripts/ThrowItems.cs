@@ -61,9 +61,9 @@ public class ThrowItems : MonoBehaviour
             {
                 r.AddExplosionForce(explosionForce, transform.position, damageRadious);
             }
-            if (objectInRange.gameObject.GetComponent<ProtoAI>())
+            if (objectInRange.gameObject.GetComponentInParent<ProtoAI>())
             {
-                objectInRange.gameObject.GetComponent<ProtoAI>().Die(tDamage);
+                objectInRange.gameObject.GetComponentInParent<ProtoAI>().Die(tDamage);
             }
             Destroy destructible = objectInRange.GetComponent<Destroy>();
             if (destructible != null)

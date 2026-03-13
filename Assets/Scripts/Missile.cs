@@ -28,7 +28,7 @@ public class Missile : MonoBehaviour
         {
             Destroy(gameObject);
             Explosion();
-            ProtoAI enemy = collision.gameObject.GetComponent<ProtoAI>();
+            ProtoAI enemy = collision.gameObject.GetComponentInParent<ProtoAI>();
             enemy.Die(mDamage);
         }
     }
@@ -43,9 +43,9 @@ public class Missile : MonoBehaviour
             {
                 r.AddExplosionForce(explosionForce, transform.position, damageRadious); //adds force to the objects 
             }
-            if (objectInRange.gameObject.GetComponent<ProtoAI>()) //As before and the bullet and the direct impact of the missile, this is the damage of the explosion.
+            if (objectInRange.gameObject.GetComponentInParent<ProtoAI>()) //As before and the bullet and the direct impact of the missile, this is the damage of the explosion.
             {
-                objectInRange.gameObject.GetComponent<ProtoAI>().Die(mDamage);
+                objectInRange.gameObject.GetComponentInParent<ProtoAI>().Die(mDamage);
             }
             Destroy destructible = objectInRange.GetComponent<Destroy>(); //if is terrain that is in the radious, and its destructible it will take damage/break.
             if (destructible != null)

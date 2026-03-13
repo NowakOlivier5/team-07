@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 35623716}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: WorldMap
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1287,7 +1287,7 @@ GameObject:
   - component: {fileID: 88852114}
   m_Layer: 0
   m_Name: Cylinder
-  m_TagString: WorldMap
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10548,7 +10548,7 @@ GameObject:
   - component: {fileID: 765742300}
   m_Layer: 0
   m_Name: Terrain
-  m_TagString: WorldMap
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -15284,7 +15284,7 @@ GameObject:
   - component: {fileID: 1054510039}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: WorldMap
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16094,7 +16094,7 @@ GameObject:
   - component: {fileID: 1104130177}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: WorldMap
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21601,7 +21601,7 @@ GameObject:
   - component: {fileID: 1501071996}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: WorldMap
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
