@@ -13,7 +13,7 @@ public class Weapon : MonoBehaviour
     public Transform bulletSpawn; //The bullet spawner
     public float bulletVelocity = 25; //The default velocity of the bullet
     public float bulletLifetime = 3f; //The bullet "air time"
-    public enum WeaponType //Shooting types
+    public enum WeaponType //Shooting types. An enum is a collection of constant, we use it as a list of types. And those types have properties that we modified and configurations related as how they shoot.
     {
         Single,
         Burst,
