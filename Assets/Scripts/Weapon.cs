@@ -140,27 +140,20 @@ public class Weapon : MonoBehaviour
 
     public Vector3 DirectionAndSpreadCal()
     {
-        Ray ray = playerCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
-        RaycastHit hit;
+        Ray ray = playerCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0)); //This is created from the "center" of the player camera. The values assigned are the center of the screen. 
 
-        Vector3 targetPoint;
-        if (Physics.Raycast(ray, out hit))//When we shoot at something we get the direction of where the bullet has to go.
-        {
-            targetPoint = hit.point;
-        }
-        else
-        {//When we shoot to nothing like the air, is how we get the flying direction of the bullet.
-            targetPoint = ray.GetPoint(100);
-        }
-
-        Vector3 direction = targetPoint - bulletSpawn.position;
+        Vector3 direction = ray.direction; //This is setting that the default shooting direction is straight and foward from the player camera.
 
         //Creating the random spread of bullets. The spread varies on both axys.
         float x = UnityEngine.Random.Range(-shootingSpread, shootingSpread);
         float y = UnityEngine.Random.Range(-shootingSpread, shootingSpread);
 
-        //Returning spread and direction
-        return direction + new Vector3(x, y, 0);
+        //Now the fix to the issue I had with the spread, that the closer i got the more crazy the spread became. I saw in a few post of unity forums that the issue has to do with me adding the spread to the world space and not in relation to the direction of the shooting. Did not scale with distance and kept "constant".
+        //Had to stop working with the world space to represent the rotation for the spread, so we have to use quaternion that is leting us handle rotation on a 3d space, its the rotation not the position what we change.
+        Quaternion spreadDirection = Quaternion.Euler(x, y, 0); //This creates the rotation on a 3d space instead of on the relative to the world space. And is a small change on direction from the center instead of spawning the bullet at an angle. 
+        Vector3 finalDirection = spreadDirection * direction;
+
+        return finalDirection.normalized; //Adding normalize ensures us that keeps consistency.
     }
 
     private IEnumerator DestroyBullet(GameObject bullet, float bulletLifetime)
