@@ -149,7 +149,7 @@ public class Weapon : MonoBehaviour
         float y = UnityEngine.Random.Range(-shootingSpread, shootingSpread);
 
         //Now the fix to the issue I had with the spread, that the closer i got the more crazy the spread became. I saw in a few post of unity forums that the issue has to do with me adding the spread to the world space and not in relation to the direction of the shooting. Did not scale with distance and kept "constant".
-        //Had to stop working with the world space to represent the rotation for the spread, so we have to use quaternion that is leting us handle rotation on a 3d space, its the rotation not the position what we change.
+        //Had to stop working with the world space to represent the rotation for the spread, so we have to use quaternion that is leting us handle rotation on a 3d space, its the rotation not the position what we change. //Reference: https://forum.brackeys.com/d/296-296
         Quaternion spreadDirection = Quaternion.Euler(x, y, 0); //This creates the rotation on a 3d space instead of on the relative to the world space. And is a small change on direction from the center instead of spawning the bullet at an angle. 
         Vector3 finalDirection = spreadDirection * direction;
 

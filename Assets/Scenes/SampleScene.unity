@@ -8015,7 +8015,7 @@ MonoBehaviour:
   isActiveWeapon: 0
   bulletSpawn: {fileID: 1930341087}
   bulletVelocity: 35
-  bulletLifetime: 3
+  bulletLifetime: 2
   isShooting: 0
   readyShooting: 0
   delayShot: 0.4
