@@ -2015,6 +2015,7 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 64
+  player: {fileID: 1123936488}
 --- !u!114 &148807847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16712,6 +16713,7 @@ MonoBehaviour:
   lookSpeed: 5
   lookXLimit: 45
   canMove: 1
+  playerHealth: 100
 --- !u!143 &1123936489
 CharacterController:
   m_ObjectHideFlags: 0

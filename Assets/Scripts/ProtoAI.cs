@@ -12,13 +12,12 @@ public class ProtoAI : MonoBehaviour
     public int monsterHealth = 5;
     private bool attackCooldown;
 
-    private int health = 100;
-
     private NavMeshAgent protoAgent; // Loads the agents navmeshagent
     private Animator animator; // Loads the animator component
     private float protoDistance; // Value used to prevent agent walking over ontop of the player
 
     public LayerMask playerLayer; // Player layer, used by the agent to detect the player within its view range
+    public FPSController player;
     private bool playerVisible; // Boolean for whether the agent sees or doesnt see the player
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -86,8 +85,7 @@ public class ProtoAI : MonoBehaviour
 
         if (protoDistance < closeDistance)
         {
-            health -= 1;
-            Debug.Log(health);
+            player.takeDamage(1);
         }
 
         yield return new WaitForSeconds(0.2f);

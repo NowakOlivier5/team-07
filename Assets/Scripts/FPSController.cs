@@ -18,6 +18,9 @@ public class FPSController : MonoBehaviour
     public bool canMove = true;
     CharacterController characterController;
 
+    // Other variables
+    public int playerHealth = 100;
+
     void Start()
     {
         characterController = GetComponent<CharacterController>(); //get player component
@@ -70,5 +73,11 @@ public class FPSController : MonoBehaviour
         }
  
         #endregion
+    }
+
+    public void takeDamage(int damage)
+    {
+        playerHealth -= damage;
+        Debug.Log(playerHealth);
     }
 }
