@@ -1,4 +1,4 @@
-using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -10,6 +10,9 @@ public class ProtoAI : MonoBehaviour
     private float closeDistance = 5;
     public float protoVisionRange = 18;
     public int monsterHealth = 5;
+    private bool attackCooldown;
+
+    private int health = 100;
 
     private NavMeshAgent protoAgent; // Loads the agents navmeshagent
     private Animator animator; // Loads the animator component
@@ -59,13 +62,37 @@ public class ProtoAI : MonoBehaviour
         if (protoDistance < closeDistance)
         {
             protoAgent.isStopped = true;
+            if (attackCooldown == false)
+            {
+                StartCoroutine(ProtoAttack());
+            }
         }
         // Otherwise, agent will continue to move towards the players current position
         else
         {
             protoAgent.isStopped = false;
             protoAgent.destination = target.position;
+            animator.SetBool("isAttacking", false);
         }
+    }
+
+    // Determines when the monster can attack and deal damage
+    IEnumerator ProtoAttack()
+    {
+        attackCooldown = true;
+        animator.SetBool("isAttacking", true);
+
+        yield return new WaitForSeconds(0.2f);
+
+        if (protoDistance < closeDistance)
+        {
+            health -= 1;
+            Debug.Log(health);
+        }
+
+        yield return new WaitForSeconds(0.2f);
+
+        attackCooldown = false;
     }
 
     // Turns the agents kinematic off and turns on gravity for the agent when hit by a projectile
@@ -85,6 +112,7 @@ public class ProtoAI : MonoBehaviour
             rb.useGravity = true;
 
             // Stops the script
+            animator.enabled = false;
             this.enabled = false;
         }
     }
