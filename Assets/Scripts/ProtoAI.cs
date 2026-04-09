@@ -7,10 +7,11 @@ public class ProtoAI : MonoBehaviour
 {
     // Agent Variables
     public Transform target;
-    private float closeDistance = 5;
-    public float protoVisionRange = 18;
-    public int monsterHealth = 5;
+    private float closeDistance = 4;
+    public float protoVisionRange;
+    public int monsterHealth;
     private bool attackCooldown;
+    private bool lungeCooldown;
 
     private NavMeshAgent protoAgent; // Loads the agents navmeshagent
     private Animator animator; // Loads the animator component
@@ -30,6 +31,9 @@ public class ProtoAI : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
         rb.isKinematic = true;
         rb.useGravity = false;
+
+        attackCooldown = false;
+        lungeCooldown = false;
     }
 
     // Update is called once per frame
@@ -73,6 +77,14 @@ public class ProtoAI : MonoBehaviour
             protoAgent.destination = target.position;
             animator.SetBool("isAttacking", false);
         }
+
+        if (protoDistance <= 22 && protoDistance >= 14)
+        {
+            if (lungeCooldown == false)
+            {
+                StartCoroutine(ProtoLunge());
+            }
+        }
     }
 
     // Determines when the monster can attack and deal damage
@@ -91,6 +103,44 @@ public class ProtoAI : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
 
         attackCooldown = false;
+    }
+
+    // Handles when the animatons for lunging play and whether if the player was hit. Also in charge of giving the monster a cooldown on its lunge
+    IEnumerator ProtoLunge()
+    {
+        lungeCooldown = true;
+        animator.SetBool("isChasing", false);
+        //animator.SetBool("isLunging", true);
+        animator.Play("Armature_JumpAttack");
+
+        yield return new WaitForSeconds(0.25f);
+
+        protoAgent.speed = 50;
+        protoAgent.acceleration = 400;
+        protoAgent.angularSpeed = 10;
+
+        yield return new WaitForSeconds(0.2f);
+
+        if (protoDistance < closeDistance + 3)
+        {
+            player.takeDamage(10);
+        }
+
+        yield return new WaitForSeconds(0.1f);
+
+        protoAgent.speed = 12;
+
+        yield return new WaitForSeconds(0.2f);
+
+        protoAgent.acceleration = 20;
+        protoAgent.angularSpeed = 300;
+
+        animator.SetBool("isChasing", true);
+        //animator.SetBool("isLunging", false);
+
+        yield return new WaitForSeconds(10f);
+
+        lungeCooldown = false;
     }
 
     // Turns the agents kinematic off and turns on gravity for the agent when hit by a projectile
