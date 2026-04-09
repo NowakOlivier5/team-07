@@ -12,6 +12,7 @@ public class ProtoAI : MonoBehaviour
     public int monsterHealth = 5;
 
     private NavMeshAgent protoAgent; // Loads the agents navmeshagent
+    private Animator animator; // Loads the animator component
     private float protoDistance; // Value used to prevent agent walking over ontop of the player
 
     public LayerMask playerLayer; // Player layer, used by the agent to detect the player within its view range
@@ -24,6 +25,7 @@ public class ProtoAI : MonoBehaviour
         // properly and up stairs/obstacles
         protoAgent = GetComponent<NavMeshAgent>();
         Rigidbody rb = GetComponentInChildren<Rigidbody>();
+        animator = GetComponentInChildren<Animator>();
         rb.isKinematic = true;
         rb.useGravity = false;
     }
@@ -94,11 +96,13 @@ public class ProtoAI : MonoBehaviour
         if (!playerVisible)
         {
             ProtoStop();
+            animator.SetBool("isChasing", false);
         }
         // Otherwise, follow the players current position
         else if (playerVisible)
         {
             ProtoFollow();
+            animator.SetBool("isChasing", true);
         }
     }
 
