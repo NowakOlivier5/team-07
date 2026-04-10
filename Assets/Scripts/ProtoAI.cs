@@ -1,4 +1,4 @@
-using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -7,14 +7,18 @@ public class ProtoAI : MonoBehaviour
 {
     // Agent Variables
     public Transform target;
-    private float closeDistance = 5;
-    public float protoVisionRange = 18;
-    public int monsterHealth = 5;
+    private float closeDistance = 4;
+    public float protoVisionRange;
+    public int monsterHealth;
+    private bool attackCooldown;
+    private bool lungeCooldown;
 
     private NavMeshAgent protoAgent; // Loads the agents navmeshagent
+    private Animator animator; // Loads the animator component
     private float protoDistance; // Value used to prevent agent walking over ontop of the player
 
     public LayerMask playerLayer; // Player layer, used by the agent to detect the player within its view range
+    public FPSController player;
     private bool playerVisible; // Boolean for whether the agent sees or doesnt see the player
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -24,8 +28,12 @@ public class ProtoAI : MonoBehaviour
         // properly and up stairs/obstacles
         protoAgent = GetComponent<NavMeshAgent>();
         Rigidbody rb = GetComponentInChildren<Rigidbody>();
+        animator = GetComponentInChildren<Animator>();
         rb.isKinematic = true;
         rb.useGravity = false;
+
+        attackCooldown = false;
+        lungeCooldown = false;
     }
 
     // Update is called once per frame
@@ -57,13 +65,82 @@ public class ProtoAI : MonoBehaviour
         if (protoDistance < closeDistance)
         {
             protoAgent.isStopped = true;
+            if (attackCooldown == false)
+            {
+                StartCoroutine(ProtoAttack());
+            }
         }
         // Otherwise, agent will continue to move towards the players current position
         else
         {
             protoAgent.isStopped = false;
             protoAgent.destination = target.position;
+            animator.SetBool("isAttacking", false);
         }
+
+        if (protoDistance <= 22 && protoDistance >= 14)
+        {
+            if (lungeCooldown == false)
+            {
+                StartCoroutine(ProtoLunge());
+            }
+        }
+    }
+
+    // Determines when the monster can attack and deal damage
+    IEnumerator ProtoAttack()
+    {
+        attackCooldown = true;
+        animator.SetBool("isAttacking", true);
+
+        yield return new WaitForSeconds(0.2f);
+
+        if (protoDistance < closeDistance)
+        {
+            player.takeDamage(1);
+        }
+
+        yield return new WaitForSeconds(0.2f);
+
+        attackCooldown = false;
+    }
+
+    // Handles when the animatons for lunging play and whether if the player was hit. Also in charge of giving the monster a cooldown on its lunge
+    IEnumerator ProtoLunge()
+    {
+        lungeCooldown = true;
+        animator.SetBool("isChasing", false);
+        //animator.SetBool("isLunging", true);
+        animator.Play("Armature_JumpAttack");
+
+        yield return new WaitForSeconds(0.25f);
+
+        protoAgent.speed = 50;
+        protoAgent.acceleration = 400;
+        protoAgent.angularSpeed = 10;
+
+        yield return new WaitForSeconds(0.2f);
+
+        if (protoDistance < closeDistance + 3)
+        {
+            player.takeDamage(10);
+        }
+
+        yield return new WaitForSeconds(0.1f);
+
+        protoAgent.speed = 12;
+
+        yield return new WaitForSeconds(0.2f);
+
+        protoAgent.acceleration = 20;
+        protoAgent.angularSpeed = 300;
+
+        animator.SetBool("isChasing", true);
+        //animator.SetBool("isLunging", false);
+
+        yield return new WaitForSeconds(10f);
+
+        lungeCooldown = false;
     }
 
     // Turns the agents kinematic off and turns on gravity for the agent when hit by a projectile
@@ -83,6 +160,7 @@ public class ProtoAI : MonoBehaviour
             rb.useGravity = true;
 
             // Stops the script
+            animator.enabled = false;
             this.enabled = false;
         }
     }
@@ -94,11 +172,13 @@ public class ProtoAI : MonoBehaviour
         if (!playerVisible)
         {
             ProtoStop();
+            animator.SetBool("isChasing", false);
         }
         // Otherwise, follow the players current position
         else if (playerVisible)
         {
             ProtoFollow();
+            animator.SetBool("isChasing", true);
         }
     }
 
