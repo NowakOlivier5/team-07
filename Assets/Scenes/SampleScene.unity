@@ -5413,7 +5413,7 @@ Transform:
   m_GameObject: {fileID: 148807844}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 25, y: 0.13, z: -40}
+  m_LocalPosition: {x: -48.19, y: 0.13, z: -40}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5433,7 +5433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProtoAI
   target: {fileID: 1123936490}
-  protoVisionRange: 30
+  protoVisionRange: 90
   monsterHealth: 5
   playerLayer:
     serializedVersion: 2
@@ -45533,7 +45533,7 @@ Transform:
   m_GameObject: {fileID: 1123936487}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.44, y: 2.15, z: -0.41}
+  m_LocalPosition: {x: 359, y: 3.3, z: 39.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
