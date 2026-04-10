@@ -273,7 +273,7 @@ GameObject:
   - component: {fileID: 35623716}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Target
+  m_TagString: WorldMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1287,7 +1287,7 @@ GameObject:
   - component: {fileID: 88852114}
   m_Layer: 0
   m_Name: Cylinder
-  m_TagString: Target
+  m_TagString: WorldMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8010,7 +8010,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2cafaef5f60f684aaf59df534542cab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Weapon
-  playerCamera: {fileID: 1337034514}
+  WeaponCamera: {fileID: 968403417}
   bulletPrefab: {fileID: 6446694515735044545, guid: 657afd0ed3620d04f93f64754347506d, type: 3}
   isActiveWeapon: 0
   bulletSpawn: {fileID: 1930341087}
@@ -8019,11 +8019,12 @@ MonoBehaviour:
   isShooting: 0
   readyShooting: 0
   delayShot: 0.4
-  shootingSpread: 0.5
+  shootingSpread: 0
   damage: 1
   bulletsPerBurst: 3
   currentBurst: 0
   currentType: 0
+  shotgunPellets: 5
 --- !u!4 &557075286 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8166708528885243059, guid: fc0a00502b296054797216fde7c9c205, type: 3}
@@ -10865,7 +10866,7 @@ GameObject:
   - component: {fileID: 765742300}
   m_Layer: 0
   m_Name: Terrain
-  m_TagString: Target
+  m_TagString: WorldMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -13896,7 +13897,7 @@ GameObject:
   - component: {fileID: 968403417}
   - component: {fileID: 968403416}
   m_Layer: 0
-  m_Name: Weapon Camera
+  m_Name: WeaponCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14000,7 +14001,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 384
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -15251,7 +15252,7 @@ GameObject:
   - component: {fileID: 1002629905}
   m_Layer: 7
   m_Name: BulletSpawn
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15264,13 +15265,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1002629904}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.58446574, y: 0.03325666, z: -0.023985462, w: 0.81038165}
-  m_LocalPosition: {x: 0.0004, y: -0.03887, z: -0.0366}
+  m_LocalRotation: {x: -0.6035182, y: 0.0025783814, z: 0.00712605, w: 0.7973133}
+  m_LocalPosition: {x: 0.00050002, y: -0.038739998, z: -0.036400054}
   m_LocalScale: {x: -0.015519312, y: -0.012926742, z: -0.011786846}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 543450653018028714}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -74.243, y: -0.947, z: 1.741}
 --- !u!1001 &1006323188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15786,7 +15787,7 @@ GameObject:
   - component: {fileID: 1054510039}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Target
+  m_TagString: WorldMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16669,7 +16670,7 @@ GameObject:
   - component: {fileID: 1104130177}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Target
+  m_TagString: WorldMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19872,7 +19873,7 @@ Camera:
   m_GameObject: {fileID: 1337034511}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 4
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -22365,7 +22366,7 @@ GameObject:
   - component: {fileID: 1501071996}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Target
+  m_TagString: WorldMap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31441,20 +31442,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2cafaef5f60f684aaf59df534542cab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Weapon
-  playerCamera: {fileID: 1337034514}
+  WeaponCamera: {fileID: 968403417}
   bulletPrefab: {fileID: 6446694515735044545, guid: 657afd0ed3620d04f93f64754347506d, type: 3}
   isActiveWeapon: 0
   bulletSpawn: {fileID: 1002629905}
   bulletVelocity: 20
-  bulletLifetime: 1.5
+  bulletLifetime: 0.4
   isShooting: 0
   readyShooting: 0
-  delayShot: 0
-  shootingSpread: 4
-  damage: 5
-  bulletsPerBurst: 8
+  delayShot: 0.6
+  shootingSpread: 0.04
+  damage: 1
+  bulletsPerBurst: 0
   currentBurst: 0
-  currentType: 1
+  currentType: 3
+  shotgunPellets: 6
 --- !u!95 &3469287836800840977
 Animator:
   serializedVersion: 7
@@ -31527,7 +31529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2cafaef5f60f684aaf59df534542cab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Weapon
-  playerCamera: {fileID: 1337034514}
+  WeaponCamera: {fileID: 968403417}
   bulletPrefab: {fileID: 6446694515735044545, guid: 7b4d3dca962e4d54f840dd344f6ace06, type: 3}
   isActiveWeapon: 0
   bulletSpawn: {fileID: 1638249010}
@@ -31541,6 +31543,7 @@ MonoBehaviour:
   bulletsPerBurst: 3
   currentBurst: 0
   currentType: 4
+  shotgunPellets: 5
 --- !u!95 &3469287837306121797
 Animator:
   serializedVersion: 7
@@ -31583,7 +31586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2cafaef5f60f684aaf59df534542cab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Weapon
-  playerCamera: {fileID: 1337034514}
+  WeaponCamera: {fileID: 968403417}
   bulletPrefab: {fileID: 6446694515735044545, guid: 657afd0ed3620d04f93f64754347506d, type: 3}
   isActiveWeapon: 0
   bulletSpawn: {fileID: 469470170}
@@ -31592,11 +31595,12 @@ MonoBehaviour:
   isShooting: 0
   readyShooting: 0
   delayShot: 0.1
-  shootingSpread: 0.5
+  shootingSpread: 0.01
   damage: 2
   bulletsPerBurst: 3
   currentBurst: 0
   currentType: 2
+  shotgunPellets: 5
 --- !u!95 &3469287838126694765
 Animator:
   serializedVersion: 7

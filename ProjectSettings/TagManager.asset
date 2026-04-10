@@ -5,7 +5,6 @@ TagManager:
   serializedVersion: 3
   tags:
   - WorldMap
-  - Target
   - ProtoAgent
   - Bullet
   - DestrEnvironment
@@ -19,7 +18,7 @@ TagManager:
   - UI
   - Player
   - Weapons
-  - 
+  - Bullet
   - 
   - 
   - 

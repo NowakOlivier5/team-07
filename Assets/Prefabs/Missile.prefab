@@ -150,7 +150,7 @@ TrailRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6446694515735044545}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -274,5 +274,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Missile
   damageRadious: 5
+  ExplosiveMark: {fileID: 1455015469224160943, guid: f9ce1082210e3ca46a988a6f09930664, type: 3}
   explosionForce: 10000
   mDamage: 0

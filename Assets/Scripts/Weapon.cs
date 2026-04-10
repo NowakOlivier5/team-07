@@ -1,13 +1,16 @@
-using System;
+
 using System.Collections;
-using System.Numerics;
 using UnityEngine;
 using Vector3 = UnityEngine.Vector3;
 using Quaternion = UnityEngine.Quaternion;
-using NUnit.Framework;
+using Random = UnityEngine.Random;
+
+//I did my code following a few youtube tutorials. This is my first time working with unity for a 3d game. 
+//Reference 1: https://www.youtube.com/watch?v=swOfmyJvb98&list=PLtLToKUhgzwm1rZnTeWSRAyx9tl8VbGUE
+//Reference 2: https://www.youtube.com/watch?v=0ezqRpkNid8&list=PLZ1b66Z1KFKinfPc4Ny9CDjIwcHEz0zc4&index=5 
 public class Weapon : MonoBehaviour
 {
-    public Camera playerCamera;
+    public Camera WeaponCamera;
     public GameObject bulletPrefab; //The bullet
     public bool isActiveWeapon;
     public Transform bulletSpawn; //The bullet spawner
@@ -30,12 +33,12 @@ public class Weapon : MonoBehaviour
     public int damage;
     //Shooting modes
     public int bulletsPerBurst = 3; //If shooting a burst of bullets it would be how many bullets per burst-
-    public int currentBurst; //To work with the burst that just got shot. and not letting it behave like a full automatic.
+    public int currentBurst; //To work with the burst that just got shot. and not letting it behave like a full automatic. I Tried using this for a shotgun but it doesnt put any kind of delay between shots to the point that you can spam click and it would shoot as fast you click. So ill keep it for a future because if we keep working on this after this semester we will end up making more types of weapons. 
 
     public WeaponType currentType; //how we are going to compare in if statements for the weapon to have the corresponding behaviours.
 
     private Animator animator; //The aniamtor plays the animations of the weapon after receiving the correct "trigger" 
-
+    public int shotgunPellets = 5; //This is the amount of pellets the shotgun will shoot per shot.
     private void Awake()
     {
         readyShooting = true;
@@ -78,28 +81,65 @@ public class Weapon : MonoBehaviour
     private void FireWeapon()
     {
         animator.SetTrigger("RECOIL");
-
+        readyShooting = false;
         if (currentType != WeaponType.RPG)
         {
-            //We said that we cant start shooting once the shooting started.    
-            readyShooting = false;
-            Vector3 directionOfShot = DirectionAndSpreadCal().normalized;
+            if (currentType == WeaponType.Shotgun)
+            {
+                float startingSpread = shootingSpread;
 
-            //Instantiating the bullet.
-            GameObject bullet = Instantiate(bulletPrefab, bulletSpawn.position, Quaternion.identity);
+                for (int i = 0; i < shotgunPellets; i++) //It applies this to every pellet, if we want to do more pellets we just change the number once where we declare shotgunPellets.
+                {
+                    Ray ray = WeaponCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0)); //Had issues with the shotgun. So i searched different solutions. The tutorial i was following did not go in to detail. So i used the way we spread for the rifle and pistol. But it wasnt working, it had a few issues, had to also deactivate collision from bullets with bullets because they where dispawning on contact as soon as it was shot, I just created a layer for them and deactivate them. I used the tutorial way of doing the spread, but apllied an off set. While also creaating a random pattern by modifying at random the X and Y direction fo the pellets. 
+                    //Reference: https://stackoverflow.com/questions/47889977/unity-shotgun-making
+                    //This person had the same problem that i was having. And someone in the comments explained why was happening what it was happening. It helped me to understand how the envirionment works
+                    //Reference: https://www.reddit.com/r/Unity3D/comments/pjbqmh/bullet_spread_only_works_when_i_shoot_specific/
+                    Vector3 direction = ray.direction;
 
-            Bullet bulletDamage = bullet.GetComponent<Bullet>();
-            bulletDamage.bDamage = damage;
+                    //Like i explained when i did the general spread. This sets the main spread area on a random range from the values we set.
+                    float x = Random.Range(-shootingSpread, shootingSpread);
+                    float y = Random.Range(-shootingSpread, shootingSpread);
 
-            //This is a pointer, points at the direction we are shooting.
-            bullet.transform.forward = directionOfShot;
-            //Force that shoots the bullet from spawn position (gun) in certain direction. (Foward is the blue axis on the little compass thingy).
+                    float shotgunOffset = 0.1f;
 
-            //Shooting the bullet
-            bullet.GetComponent<Rigidbody>().AddForce(directionOfShot * bulletVelocity, ForceMode.Impulse);//"Impulse" is the way that the force will work.
+                    //We do add a bit of an extra offset for the shotgun because it has bigger spread and we want some level of randomness on the pellets. And then like before we handle the direction from the weapon camera transforming it right and up.
+                    direction += WeaponCamera.transform.right * (x + Random.Range(-shotgunOffset, shotgunOffset));
+                    direction += WeaponCamera.transform.up * (y + Random.Range(-shotgunOffset, shotgunOffset));
 
-            StartCoroutine(DestroyBullet(bullet, bulletLifetime)); //Removes the bullet after certain delayed applied to the bullet.
+                    Vector3 directionOfShot = direction.normalized;
 
+                    GameObject bullet = Instantiate(bulletPrefab, bulletSpawn.position, Quaternion.identity);
+                    Bullet bulletDamage = bullet.GetComponent<Bullet>();
+                    bulletDamage.bDamage = damage;
+
+                    bullet.transform.forward = directionOfShot;
+                    bullet.GetComponent<Rigidbody>().AddForce(directionOfShot * bulletVelocity, ForceMode.Impulse);
+
+                    StartCoroutine(DestroyBullet(bullet, bulletLifetime));
+                }
+                shootingSpread = startingSpread;
+            }
+            else
+            {
+                //We said that we cant start shooting once the shooting started.    
+                Vector3 directionOfShot = DirectionAndSpreadCal().normalized;
+
+                //Instantiating the bullet.
+                GameObject bullet = Instantiate(bulletPrefab, bulletSpawn.position, Quaternion.identity);
+
+                Bullet bulletDamage = bullet.GetComponent<Bullet>();
+                bulletDamage.bDamage = damage;
+
+                //This is a pointer, points at the direction we are shooting.
+                bullet.transform.forward = directionOfShot;
+                //Force that shoots the bullet from spawn position (gun) in certain direction. (Foward is the blue axis on the little compass thingy).
+
+                //Shooting the bullet
+                bullet.GetComponent<Rigidbody>().AddForce(directionOfShot * bulletVelocity, ForceMode.Impulse);//"Impulse" is the way that the force will work.
+
+                StartCoroutine(DestroyBullet(bullet, bulletLifetime)); //Removes the bullet after certain delayed applied to the bullet.
+
+            }
             //The same way we check if we are allowed to start shooting we check if we are done shooting.
             if (allowReset)
             {
@@ -137,21 +177,19 @@ public class Weapon : MonoBehaviour
 
     }
 
-
     public Vector3 DirectionAndSpreadCal()
-    {
-        Ray ray = playerCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0)); //This is created from the "center" of the player camera. The values assigned are the center of the screen. 
+    {//Reference: https://www.youtube.com/watch?v=xgOJwDSARmo&list=PLtLToKUhgzwm1rZnTeWSRAyx9tl8VbGUE&index=3
+        Ray ray = WeaponCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0)); //This is created from the "center" of the weapon camera. The values assigned are the center of the screen. 
 
-        Vector3 direction = ray.direction; //This is setting that the default shooting direction is straight and foward from the player camera.
+        Vector3 finalDirection = ray.direction; //This is setting that the default shooting direction is straight and foward from the player camera(Weapon Camera is a "sub camera" of Player camera).
 
-        //Creating the random spread of bullets. The spread varies on both axys.
-        float x = UnityEngine.Random.Range(-shootingSpread, shootingSpread);
-        float y = UnityEngine.Random.Range(-shootingSpread, shootingSpread);
+        //This are the random values that woudl vary from the spread we input. This generates a random offset for the shot on a square shape. 
+        float x = Random.Range(-shootingSpread, shootingSpread);
+        float y = Random.Range(-shootingSpread, shootingSpread);
 
-        //Now the fix to the issue I had with the spread, that the closer i got the more crazy the spread became. I saw in a few post of unity forums that the issue has to do with me adding the spread to the world space and not in relation to the direction of the shooting. Did not scale with distance and kept "constant".
-        //Had to stop working with the world space to represent the rotation for the spread, so we have to use quaternion that is leting us handle rotation on a 3d space, its the rotation not the position what we change. //Reference: https://forum.brackeys.com/d/296-296
-        Quaternion spreadDirection = Quaternion.Euler(x, y, 0); //This creates the rotation on a 3d space instead of on the relative to the world space. And is a small change on direction from the center instead of spawning the bullet at an angle. 
-        Vector3 finalDirection = spreadDirection * direction;
+        //Reference: https://stackoverflow.com/questions/47889977/unity-shotgun-making
+        finalDirection += WeaponCamera.transform.right * x; //Transform right generates the spread change horizontaly, even though it says right it also includes left cia positive and negative values on the x axys (Positive right, negative left)
+        finalDirection += WeaponCamera.transform.up * y; //Similar to transform right, but in this case up and down in the Y axys. This gets added to final direction after exiting on the "foward direction" from the ray casting.
 
         return finalDirection.normalized; //Adding normalize ensures us that keeps consistency.
     }

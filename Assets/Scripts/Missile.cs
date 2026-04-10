@@ -1,33 +1,41 @@
-using Unity.VisualScripting;
 using UnityEngine;
-
+//Here i did the same for the bullets with a few changes following the granade tutorial from a playlist i was watching. 
+//Reference: https://www.youtube.com/watch?v=zHNygBIX3rw&list=PLtLToKUhgzwm1rZnTeWSRAyx9tl8VbGUE&index=14
 public class Missile : MonoBehaviour
 {
     [SerializeField] float damageRadious = 5f; //The default "explosion radious" Also using serialize it makes it a private variable but still being able to use it as public to ahve access throughout the unity editor. This way is more convinient to modify some of the properties of game objects.
     //Also in a future if we want, we can move this values to the weapons script if we want to make different type of explosive projectiles. But tbf I think an RPG is enough as "big boy explosive laucher" maybe some other kind in the future.
+    public GameObject ExplosiveMark;
+
     [SerializeField] float explosionForce = 10000f; //The default force that will push objects with
     public int mDamage;
     //This is mostly the same as the bullet but for a missile.
     private void OnCollisionEnter(Collision collision)
     {
+        ContactPoint pointOfImpact = collision.contacts[0];
+        Destroy(gameObject);
+        Explosion();
 
-        if (collision.gameObject.CompareTag("Target"))
-        {
-            Destroy(gameObject);
-            Explosion();
-        }
 
         if (collision.gameObject.CompareTag("WorldMap"))
         {
-            Destroy(gameObject);
-            Explosion();
+            if (ExplosiveMark != null)
+            {
+                Quaternion rotation = Quaternion.LookRotation(pointOfImpact.normal);
+                GameObject explosiveMark = Instantiate(ExplosiveMark, pointOfImpact.point + pointOfImpact.normal * 0.01f, rotation);
+
+                explosiveMark.transform.SetParent(collision.transform);
+                Destroy(explosiveMark, 10f);
+            }
             Destroy destructible = collision.gameObject.GetComponent<Destroy>();
-            destructible.TakeDamage(mDamage);
+            if (destructible != null)
+            {
+                destructible.TakeDamage(mDamage);
+            }
+
         }
         if (collision.gameObject.CompareTag("ProtoAgent"))
         {
-            Destroy(gameObject);
-            Explosion();
             ProtoAI enemy = collision.gameObject.GetComponentInParent<ProtoAI>();
             enemy.Die(mDamage);
         }
