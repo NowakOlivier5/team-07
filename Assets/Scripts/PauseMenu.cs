@@ -7,6 +7,9 @@ public class PauseMenu : MonoBehaviour
     public static bool isPaused;// Public boolean for controlling whether to stop time and other scripts
 
     public GameObject pauseMenu;
+    public GameObject victoryMenu;
+
+    public ProtoAI monster;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -29,6 +32,10 @@ public class PauseMenu : MonoBehaviour
             {
                 Unpause();
             }
+        }
+        if (monster.monsterHealth <= 0)
+        {
+            victoryMenu.SetActive(true);
         }
     }
 
