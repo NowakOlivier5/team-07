@@ -3,7 +3,102 @@ guid: 73cd786087adc5d47b7cd229f2a22a62
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark.001
+    second: {fileID: 2100000, guid: 7256669061af3154c9d6054e1d112c38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark.006
+    second: {fileID: 2100000, guid: 7256669061af3154c9d6054e1d112c38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark.007
+    second: {fileID: 2100000, guid: 7256669061af3154c9d6054e1d112c38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark.008
+    second: {fileID: 2100000, guid: 7256669061af3154c9d6054e1d112c38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark.009
+    second: {fileID: 2100000, guid: 7256669061af3154c9d6054e1d112c38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark.010
+    second: {fileID: 2100000, guid: 7256669061af3154c9d6054e1d112c38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark.011
+    second: {fileID: 2100000, guid: 7256669061af3154c9d6054e1d112c38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark.012
+    second: {fileID: 2100000, guid: 7256669061af3154c9d6054e1d112c38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark.013
+    second: {fileID: 2100000, guid: 7256669061af3154c9d6054e1d112c38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark.014
+    second: {fileID: 2100000, guid: 7256669061af3154c9d6054e1d112c38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark.015
+    second: {fileID: 2100000, guid: 7256669061af3154c9d6054e1d112c38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark.016
+    second: {fileID: 2100000, guid: 7256669061af3154c9d6054e1d112c38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark.017
+    second: {fileID: 2100000, guid: 7256669061af3154c9d6054e1d112c38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark.018
+    second: {fileID: 2100000, guid: 7256669061af3154c9d6054e1d112c38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark.019
+    second: {fileID: 2100000, guid: 7256669061af3154c9d6054e1d112c38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark.020
+    second: {fileID: 2100000, guid: 7256669061af3154c9d6054e1d112c38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark.021
+    second: {fileID: 2100000, guid: 7256669061af3154c9d6054e1d112c38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark.022
+    second: {fileID: 2100000, guid: 7256669061af3154c9d6054e1d112c38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bark.024
+    second: {fileID: 2100000, guid: 7256669061af3154c9d6054e1d112c38, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
