@@ -13,8 +13,8 @@ public class FPSControllerTests
         playerObject = new GameObject();
 
         //attach script and components
-        controller = playerObject.AddComponent<FPSController>();
         playerObject.AddComponent<CharacterController>();
+        controller = playerObject.AddComponent<FPSController>();
         GameObject camObj = new GameObject();//another empty object this one for camera
         controller.playerCamera = camObj.AddComponent<Camera>();
     }
@@ -37,11 +37,11 @@ public class FPSControllerTests
 
     //making sure health cant go below 0
     [Test]
-    public void TakeDamage_AllowsNegativeHealth()
+    public void TakeDamage_NotNegativeHealth()
     {
         controller.playerHealth = 10;
         controller.takeDamage(20);
-        Assert.AreEqual(-10, controller.playerHealth);
+        Assert.GreaterOrEqual(controller.playerHealth, 0);
     }
 
     //walk speed is correct

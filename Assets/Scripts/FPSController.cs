@@ -71,13 +71,17 @@ public class FPSController : MonoBehaviour
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
         }
- 
         #endregion
     }
 
     public void takeDamage(int damage)
     {
         playerHealth -= damage;
-        Debug.Log(playerHealth);
+
+        //health never goes below 0
+        if (playerHealth < 0)
+        {
+            playerHealth = 0;
+        }
     }
 }
