@@ -37,9 +37,14 @@ public class Weapon : MonoBehaviour
 
     public WeaponType currentType; //how we are going to compare in if statements for the weapon to have the corresponding behaviours.
 
-    private Animator animator; //The aniamtor plays the animations of the weapon after receiving the correct "trigger" 
+    public Animator animator; //The aniamtor plays the animations of the weapon after receiving the correct "trigger" 
     public int shotgunPellets = 5; //This is the amount of pellets the shotgun will shoot per shot.
     private void Awake()
+    {
+        InitializingParts(); //Had to create this function to be able to test things. I wanted to test the inizialisation. but if i did Awake() public im afraid of messing around with some stuff. So i just made its own function and gets called in Awake.
+    }
+
+    public void InitializingParts()
     {
         readyShooting = true;
         currentBurst = bulletsPerBurst; //when ther are no more bullets in that burst, means that the burst is over.
@@ -78,7 +83,7 @@ public class Weapon : MonoBehaviour
         allowReset = true;
     }
 
-    private void FireWeapon()
+    public void FireWeapon()
     {
         animator.SetTrigger("RECOIL");
         readyShooting = false;
