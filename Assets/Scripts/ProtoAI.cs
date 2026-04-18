@@ -78,6 +78,7 @@ public class ProtoAI : MonoBehaviour
             animator.SetBool("isAttacking", false);
         }
 
+        // If the player is within the defined range and the cooldown is off, tells the monster to lunge
         if (protoDistance <= 22 && protoDistance >= 14)
         {
             if (lungeCooldown == false)
@@ -90,11 +91,12 @@ public class ProtoAI : MonoBehaviour
     // Determines when the monster can attack and deal damage
     IEnumerator ProtoAttack()
     {
-        attackCooldown = true;
-        animator.SetBool("isAttacking", true);
+        attackCooldown = true; // Acts as a cooldown for the basic attack, otherwise it would deal damage every frame which is not what we want
+        animator.SetBool("isAttacking", true); // Queues the attack animation
 
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.2f); // Slight delay of the attack to sync up with the animation of the claws hitting the player
 
+        // Checks if the player is still in close proxmity where it would then deal damage
         if (protoDistance < closeDistance)
         {
             player.takeDamage(1);
@@ -102,7 +104,7 @@ public class ProtoAI : MonoBehaviour
 
         yield return new WaitForSeconds(0.2f);
 
-        attackCooldown = false;
+        attackCooldown = false; // Reset the attack cooldown allowing the function to run again
     }
 
     // Handles when the animatons for lunging play and whether if the player was hit. Also in charge of giving the monster a cooldown on its lunge
