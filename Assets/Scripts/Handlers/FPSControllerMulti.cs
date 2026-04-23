@@ -25,8 +25,30 @@ public class FPSControllerMulti : NetworkBehaviour
     void Start()
     {
         characterController = GetComponent<CharacterController>(); //get player component
-        Cursor.lockState = CursorLockMode.Locked; //lock cursor to center
-        Cursor.visible = false; //hide cursor
+
+        if (!isLocalPlayer)
+        {
+            if (playerCamera != null)
+                playerCamera.enabled = false;
+
+            AudioListener listener = GetComponentInChildren<AudioListener>();
+            if (listener != null)
+                listener.enabled = false;
+
+            return;
+        }
+
+        SetupLocalPlayer();
+        //Cursor.lockState = CursorLockMode.Locked; //lock cursor to center
+        //Cursor.visible = false; //hide cursor
+    }
+    private void SetupLocalPlayer()
+    {
+        if (playerCamera != null)
+            playerCamera.enabled = true;
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     void Update()
