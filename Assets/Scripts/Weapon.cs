@@ -51,7 +51,7 @@ public class Weapon : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    void Update()
+    public void Update()
     {
         if (isActiveWeapon) //If the weapon is not the one in hand doesnt shoot.
         {
