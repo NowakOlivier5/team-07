@@ -5,6 +5,7 @@ public class MainMenu : MonoBehaviour
 {
     // Loads the SampleScene when play is clicked
     public void PlayButton() {
+        GameManager.Instance.isSinglePlayer = true;
         SceneManager.LoadScene("SampleScene");
         Debug.Log("Loading scene");
     }

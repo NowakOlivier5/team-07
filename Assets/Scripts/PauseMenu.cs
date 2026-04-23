@@ -1,3 +1,4 @@
+using Mirror;
 using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -50,7 +51,22 @@ public class PauseMenu : MonoBehaviour
     }
     public void MainMenuButton()
     {
-        SceneManager.LoadScene("MainMenu");
+        if (NetworkServer.active && NetworkClient.isConnected)
+        {
+            NetworkManager.singleton.StopHost();
+        }
+        else if (NetworkClient.isConnected)
+        {
+            NetworkManager.singleton.StopClient();
+        }
+        else if (NetworkServer.active)
+        {
+            NetworkManager.singleton.StopServer();
+        }
+        else
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
     }
     public void QuitButton()
     {
