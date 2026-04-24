@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+// A script handling players in the steam multiplayer lobby
+// References: https://www.youtube.com/watch?v=WBOvM2pjt9E
 namespace MMSteamMulti
 {
     public class PlayerLobbyHandler : NetworkBehaviour

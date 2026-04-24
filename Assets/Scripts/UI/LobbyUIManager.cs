@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using System.Collections;
 using Steamworks;
 
+// References: https://www.youtube.com/watch?v=WBOvM2pjt9E
 namespace MMSteamMulti
 {
     public class LobbyUIManager : NetworkBehaviour

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using Mirror;
 
+// A variant of the FPSController script but slightly adapted to be used for a multiplayer instance
+
 [RequireComponent(typeof(CharacterController))]
 public class FPSControllerMulti : NetworkBehaviour
 {
@@ -26,6 +28,10 @@ public class FPSControllerMulti : NetworkBehaviour
     {
         characterController = GetComponent<CharacterController>(); //get player component
 
+        // Checks if not the local player
+        // This is to ensure each player gets it own audiolistener to detect input.
+        // Additionally each player also gets its own camera so the players dont share the same host camera
+        // As such, if not the local player, disable both componenets
         if (!isLocalPlayer)
         {
             if (playerCamera != null)
@@ -42,6 +48,7 @@ public class FPSControllerMulti : NetworkBehaviour
         //Cursor.lockState = CursorLockMode.Locked; //lock cursor to center
         //Cursor.visible = false; //hide cursor
     }
+    // Sets up each local player
     private void SetupLocalPlayer()
     {
         if (playerCamera != null)

@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// A small gamemanager script was made to allow a smooth transition from main menu to the gameplay scene in singleplayer
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;

@@ -1,6 +1,22 @@
+Controls:
 W, A, S, D - movement
 1, 2, 3, 4 - switch weapons
 G - hold to throw grenade
 left click - shoot
 shift - hold to run
 space - jump
+
+Steam Multiplayer:
+The multiplayer developed within this project was developed using multiple packages and the help
+of the steam environment to facilitate connections between players. This method of connection is
+a peer to peer system and allows your friends on steam to join.
+Packages used:
+Mirror: A multiplayer package supplied by Unity to have access to network components
+Steamworks.NET: A steam API package used to handle getting info from steam users such as friends list
+FizzySteamworks: A small open source package used to connect Mirrors functionality with Steamworks API
+
+References:
+Youtube Tutorial: https://www.youtube.com/watch?v=WBOvM2pjt9E
+Steamworks.NET C# Wrapper: https://github.com/rlabrecque/steamworks.net
+Mirror: https://assetstore.unity.com/packages/tools/network/mirror-129321
+Fizzy Steamworks: https://github.com/Chykary/FizzySteamworks/

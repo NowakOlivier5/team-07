@@ -3,6 +3,8 @@ using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// A variant of the pause menu adapted for multiplayer use
+// Key changes: time will not stop when paused and no restart button
 public class MultiPauseMenu : MonoBehaviour
 {
     public static bool isPaused;// Public boolean for controlling whether to stop time and other scripts

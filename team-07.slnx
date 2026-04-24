@@ -1,8 +1,26 @@
 ﻿<Solution>
-  <Project Path="Assembly-CSharp-Editor.csproj" />
-  <Project Path="Yaroslav-Tests.csproj" />
+  <Project Path="Unity.Mirror.CodeGen.csproj" />
+  <Project Path="Edgegap.csproj" />
+  <Project Path="com.rlabrecque.steamworks.net.csproj" />
+  <Project Path="Mirror.Components.csproj" />
   <Project Path="GameScripts.csproj" />
+  <Project Path="Mirror.Editor.csproj" />
+  <Project Path="Mirror.Examples.csproj" />
+  <Project Path="kcp2k.csproj" />
+  <Project Path="Mirror.csproj" />
+  <Project Path="SimpleWebTransport.csproj" />
+  <Project Path="FizzySteamworks.csproj" />
+  <Project Path="Mirror.Authenticators.csproj" />
+  <Project Path="Mirror.Transports.csproj" />
+  <Project Path="EncryptionTransportEditor.csproj" />
+  <Project Path="com.rlabrecque.steamworks.net.editor.csproj" />
+  <Project Path="Telepathy.csproj" />
+  <Project Path="Assembly-CSharp-Editor.csproj" />
   <Project Path="Tests.csproj" />
+  <Project Path="Mirror.CompilerSymbols.csproj" />
+  <Project Path="Tests-Sophie.csproj" />
+  <Project Path="Yaroslav-Tests.csproj" />
   <Project Path="LestatTest.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="PlayMode.csproj" />
 </Solution>

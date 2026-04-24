@@ -4,6 +4,8 @@ using Mirror;
 using System.Collections;
 using Steamworks;
 
+// This script handles the networking for the multiplayer lobby
+// References: https://www.youtube.com/watch?v=WBOvM2pjt9E
 namespace MMSteamMulti
 {
     public class SteamLobby : MonoBehaviour
